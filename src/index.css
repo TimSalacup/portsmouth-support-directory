@@ -1,4 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
 @import "tailwindcss";
 
-:root { font-family: ui-sans-serif, system-ui, sans-serif; color: #263b36; background: #f5f4ef; color-scheme: light; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+:root {
+  font-family: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+  color: #243832;
+  background: #F3F5EF;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
 body { margin: 0; min-width: 320px; }
+.category-card {
+  aspect-ratio: 3 / 4;
+  min-width: 0;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px rgb(27 42 36 / 4%), 0 12px 24px rgb(27 42 36 / 6%);
+}
+.category-card--crisis { border-top: 4px solid #087564; }
+.category-view {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  color: #087564;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.view-word { position: relative; }
+.view-word::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 220ms ease;
+}
+.click-pointer { transform-origin: 8px 8px; }
+.click-rays { opacity: 0; }
+@media (hover: hover) and (pointer: fine) {
+  .category-card:hover .view-word::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .category-card:hover .click-pointer { animation: pointer-click 360ms ease-out 1; }
+  .category-card:hover .click-rays { animation: click-rays 360ms ease-out 1; }
+}
+@keyframes pointer-click {
+  0%, 100% { transform: scale(1); }
+  40% { transform: scale(.84); }
+  65% { transform: scale(1.04); }
+}
+@keyframes click-rays {
+  0%, 100% { opacity: 0; }
+  40%, 65% { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .category-card:hover .click-pointer, .category-card:hover .click-rays { animation: none; }
+  .view-word::after { transition: none; }
+}

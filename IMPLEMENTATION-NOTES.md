@@ -6,9 +6,13 @@ The actual supplied source was updated locally. No push, PR or deployment was pe
 
 ## Changes
 
-Centered title-only navigation; 12 noninteractive category cards in the provided order; 3 columns at 1024px+, 2 at 640px+, 1 below 640px. Warm light background, muted coastal text and crisis-card accent, 16px corners, 4px-based spacing, no links, footer, buttons, category content or animation. Removed the starter favicon reference and set the page title. Original unused assets remain available in the source archive.
+Centered title-only navigation without a divider; 12 noninteractive category cards in the provided order; 3 columns at 1024px+, 2 at 640px+, 1 below 640px. Portrait 3:4 white cards with top-aligned titles and roomy lower space, subtle neutral shadows, 16px corners, 4px-based spacing. Montserrat via standard Google Fonts stylesheet with system fallback. No links, footer, buttons or category content. Decorative pointer + exact view label is hidden from assistive technology because it has no action or destination; cards retain list-item semantics and default cursor. Hover triggers one 360ms click animation and a directional underline; reduced-motion disables animation/transitions. No autonomous motion. Removed the starter favicon reference and set the page title. Original unused assets remain available in the source archive.
 
 React entry point and original ESLint configuration are preserved. Tailwind v4 and its Vite plugin are added to package.json and the existing React Vite plugin is retained.
+
+## Reference palette
+
+Dominant page #F3F5EF, secondary card #FFFFFF, accent #087564, readable text #243832; neutral shadow rgb(27 42 36 / 4%) and rgb(27 42 36 / 6%). The video’s 60/30/10 principle guides hierarchy rather than an exact measured pixel ratio. Accent is limited to view details and the crisis card’s top border.
 
 ## Required dependency step
 
