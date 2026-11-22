@@ -1,7 +1,8 @@
+import { matchDetailHeight, attachCategoryReveals, attachHeaderParallax } from './layout-motion.mjs'
 import DetailPanel from './DetailPanel.jsx'
 import directoryData from './directory-data.json'
 import { lockDocumentScroll } from './segment-navigation.mjs'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import practicePhoto from './assets/portsdown.webp'
 import { columnsForWidth, categoryPosition } from './directory-layout.mjs'
 import categoryImage1 from './assets/categories/mental-wellbeing-resources.webp'
@@ -36,6 +37,7 @@ export default function App() {
   const [columns, setColumns] = useState(() => columnsForWidth(window.innerWidth))
   const [selection, setSelection] = useState(null)
   const gridRef = useRef(null)
+  const headerRef = useRef(null)
   const triggers = useRef([])
   const detailRegion = useRef(null)
   const originalScroll = useRef(0)
@@ -101,6 +103,17 @@ export default function App() {
     return lockDocumentScroll()
   }, [selection, columns])
 
+  useEffect(() => {
+    const stopHeader = attachHeaderParallax(headerRef.current)
+    const stopReveals = attachCategoryReveals(gridRef.current)
+    return () => { stopHeader(); stopReveals() }
+  }, [])
+
+  useLayoutEffect(() => {
+    if (!selection || !detailRegion.current || !triggers.current[selection.index]) return
+    return matchDetailHeight(triggers.current[selection.index], detailRegion.current)
+  }, [selection, columns])
+
   const open = index => {
     if (selection) return
     originalScroll.current = window.scrollY
@@ -112,12 +125,14 @@ export default function App() {
 
   return (
     <>
-      <header className="directory-header">
+      <header ref={headerRef} className="directory-header">
         <div className="practice-fan" aria-hidden="true">
-          <div className="practice-card practice-card--rear" />
-          <div className="practice-card practice-card--front"><img src={practicePhoto} alt="" /></div>
+          <div className="practice-parallax">
+            <div className="practice-entry practice-entry--rear"><div className="practice-card practice-card--rear" /></div>
+            <div className="practice-entry practice-entry--front"><div className="practice-card practice-card--front"><img src={practicePhoto} alt="" /></div></div>
+          </div>
         </div>
-        <h1><span>PORTSMOUTH</span>{' '}<span>SUPPORT DIRECTORY</span></h1>
+        <div className="header-heading-motion"><h1><span className="portsmouth-word">Portsmouth</span>{' '}<span>Support Directory</span></h1></div>
         <svg className="section-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false">
           <path d="M0 44 C280 124 420 124 720 64 C1020 4 1160 4 1440 64 L1440 120 L0 120 Z" fill="white" />
         </svg>
@@ -134,6 +149,7 @@ export default function App() {
                   style={{ gridColumn: position.column, gridRow: position.row,
                     transform: selected && !closing ? `translateX(calc(-${position.column - 1} * (100% + 24px)))` : undefined }}
                   aria-hidden={hidden || undefined} inert={hidden || undefined}>
+                  <div className="category-reveal">
                   <button ref={element => { triggers.current[index] = element }} type="button"
                     className="category-card rounded-2xl p-8" onClick={() => open(index)}
                     aria-expanded={selected} aria-controls={selected ? 'category-detail' : undefined}
@@ -148,6 +164,7 @@ export default function App() {
                       <span className="view-word">view</span>
                     </span>
                   </button>
+                  </div>
                 </li>
               )
             })}

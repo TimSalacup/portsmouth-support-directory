@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -152,7 +153,7 @@ body { margin: 0; min-width: 320px; }
 /* The header has one white wave; the practice cards share a lower pivot. */
 .directory-header { padding-bottom: max(120px, 10vh); }
 .section-wave { position: absolute; bottom: -1px; left: 0; width: 100%; height: 88px; z-index: 2; pointer-events: none; }
-.practice-fan { position: absolute; top: 9%; right: 7%; width: clamp(160px, 22vw, 320px); height: 46%; max-height: 360px; z-index: 0; }
+.practice-fan { position: absolute; top: 10%; left: 60%; right: auto; width: min(360px, 32vw, 36vh); height: auto; aspect-ratio: 8 / 9; max-height: none; transform: translateX(-50%); z-index: 0; }
 .practice-card { pointer-events: none; position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 20px; border: 8px solid white; overflow: hidden; box-shadow: 0 16px 40px rgb(13 60 124 / 18%); transform-origin: 20% 90%; transition: transform 360ms ease-out; }
 .practice-card--rear { background: #c4e4f8; transform: rotate(-10deg); }
 .practice-card--front { background: white; transform: rotate(7deg); }
@@ -180,9 +181,9 @@ body { margin: 0; min-width: 320px; }
 @media (max-width: 639px) {
   .directory-grid { grid-template-columns: minmax(0, 1fr); }
   .category-detail { padding: 8px 0 24px; }
-  .practice-fan { width: min(42vw, 220px); height: 34%; top: 6%; right: 13%; }
+  .practice-fan { width: min(220px, 44vw, 30vh); height: auto; top: 20%; left: 56%; right: auto; }
 }
-@media (max-height: 520px) { .practice-fan { width: min(18vw, 120px); height: 30%; top: 8%; } .directory-header { padding-bottom: 96px; } .section-wave { height: 56px; } }
+@media (max-height: 520px) { .practice-fan { width: min(120px, 18vw, 22vh); height: auto; top: 10%; } .directory-header { padding-bottom: 96px; } .section-wave { height: 56px; } }
 @media (prefers-reduced-motion: reduce) {
   .practice-card, .category-slot, .category-detail { transition: none; }
   .practice-fan:hover .practice-card--rear { transform: rotate(-10deg); }
@@ -260,4 +261,39 @@ body { margin: 0; min-width: 320px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .segment-pane--in, .segment-pane--out, .segment-arrow svg { animation: none; }
+}
+
+/* 400px applies to each actual card; smaller viewports retain the same 8:9 ratio. */
+@media (min-width: 1280px) and (min-height: 1000px) {
+  .practice-fan { width: 400px; }
+}
+
+/* Independent motion layers: position > parallax > entrance > fan rotation. */
+.practice-parallax { position: absolute; inset: 0; transform: translateY(var(--fan-parallax, 0px)); }
+.practice-entry { position: absolute; inset: 0; pointer-events: none; }
+.practice-entry--rear { animation: rear-arrive 3s ease-out both; }
+.practice-entry--front { animation: front-arrive 3s ease-out .5s both; }
+.header-heading-motion { position: relative; z-index: 1; max-width: 100%; transform: translateY(var(--heading-parallax, 0px)); }
+.directory-header h1 { animation: heading-arrive 2s ease-out both; }
+.directory-header h1 .portsmouth-word { font-family: 'BBH Bartle', Georgia, cursive; font-size: min(clamp(64px, 8.25vw, 48px), 12vw); font-weight: 400; }
+@keyframes rear-arrive { from { opacity: 1; transform: translateY(calc(-100vh - 200%)); } to { opacity: 1; transform: translateY(0); } }
+@keyframes front-arrive { from { opacity: 1; transform: translateX(calc(100vw + 100%)); } to { opacity: 1; transform: translateX(0); } }
+@keyframes heading-arrive { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: translateY(0); } }
+.category-reveal { opacity: 1; transform: translateY(0); transition: opacity 500ms ease-out, transform 500ms ease-out; }
+.category-reveal.reveal-ready { opacity: 0; transform: translateY(20px); }
+@media (min-width: 1024px) {
+  .practice-fan { left: calc(60% + 64px); }
+  .is-open .is-selected .category-card { max-height: calc(100dvh - 136px); }
+}
+@media (max-width: 1023px) {
+  .directory-header { height: auto; min-height: 95vh; flex-direction: column; align-items: center; justify-content: center; gap: 64px; padding: 64px 24px 136px; }
+  .header-heading-motion { order: 0; text-align: center; }
+  .practice-fan { order: 1; position: relative; left: auto; right: auto; top: auto; transform: none; width: min(320px, 55vw); height: auto; aspect-ratio: 8 / 9; flex: none; margin: 0 0 16px; }
+}
+@media (max-width: 480px) { .directory-header { gap: 48px; padding-top: 48px; } .practice-fan { width: min(240px, 54vw); } }
+@media (prefers-reduced-motion: reduce) {
+  .practice-parallax, .header-heading-motion { transform: none; }
+  .practice-entry, .directory-header h1 { animation: none; }
+  .category-reveal { transition: none; }
+  .category-reveal.reveal-ready { opacity: 1; transform: none; }
 }
