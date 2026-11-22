@@ -26,3 +26,8 @@ for (const rows of Object.values(data)) for (const row of rows) {
   for (const contact of row.contacts) assert.ok(!contact.href || /^(https?:\/\/|mailto:|tel:)/.test(contact.href))
 }
 console.log('PASS: momentum, direction, boundary, cooldown and all 75 data records')
+
+const phones = Object.values(data).flat().flatMap(record => record.contacts).filter(contact => contact.href?.startsWith('tel:'))
+assert.equal(phones.length, 46)
+assert.ok(data['mental-health-in-crisis'].every(record => record.contacts.every(contact => !contact.href?.startsWith('tel:'))))
+console.log('PASS: 46 clickable phone links; crisis entries remain links-only')

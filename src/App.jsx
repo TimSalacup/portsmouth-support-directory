@@ -93,8 +93,10 @@ export default function App() {
     const card = triggers.current[selection.index]?.getBoundingClientRect()
     const detail = detailRegion.current?.getBoundingClientRect()
     if (!card || !detail) return
-    const rowHeight = columns === 1 ? card.height + 24 + detail.height + 48 : Math.max(card.height, detail.height + 48)
-    const top = window.scrollY + card.top - Math.max(12, (window.innerHeight - rowHeight) / 2)
+    const rowTop = columns === 1 ? card.top : Math.min(card.top, detail.top - 52)
+    const rowBottom = Math.max(card.bottom, detail.bottom + 52)
+    const rowHeight = rowBottom - rowTop
+    const top = window.scrollY + rowTop - Math.max(12, (window.innerHeight - rowHeight) / 2)
     window.scrollTo({ top: Math.max(0, top), behavior: 'instant' })
     return lockDocumentScroll()
   }, [selection, columns])

@@ -26,7 +26,7 @@ export function createWheelGate({ quietMs = 260, cooldownMs = 700, threshold = 4
   }
 }
 
-export function attachSegmentNavigation(viewport, step) {
+export function attachSegmentNavigation(viewport, step, { eventTarget = viewport, isBlocked = () => false } = {}) {
   const gate = createWheelGate()
   const canScroll = direction => direction > 0
     ? viewport.scrollTop + viewport.clientHeight < viewport.scrollHeight - 2
@@ -38,23 +38,24 @@ export function attachSegmentNavigation(viewport, step) {
     const time = performance.now()
     const blocked = gate.blocks(time)
     const move = gate.feed(delta, time, scrollable)
-    if (!scrollable || blocked) event.preventDefault()
-    if (move) step(move)
+    if (!scrollable || blocked || isBlocked()) event.preventDefault()
+    if (move && !isBlocked()) step(move)
   }
   let touch = null
   const touchstart = event => {
-    if (event.touches.length !== 1) { touch = null; return }
+    if (isBlocked() || event.touches.length !== 1) { touch = null; return }
     touch = { y: event.touches[0].clientY, x: event.touches[0].clientX, top: viewport.scrollTop,
       up: !canScroll(-1), down: !canScroll(1), moved: false }
   }
   const touchmove = event => {
+    if (isBlocked()) { event.preventDefault(); return }
     if (!touch || event.touches.length !== 1) return
     if (Math.abs(viewport.scrollTop - touch.top) > 2) touch.moved = true
     const direction = Math.sign(touch.y - event.touches[0].clientY)
     if (!canScroll(direction)) event.preventDefault()
   }
   const touchend = event => {
-    if (!touch || !event.changedTouches.length) return
+    if (isBlocked() || !touch || !event.changedTouches.length) return
     const dy = touch.y - event.changedTouches[0].clientY
     const dx = touch.x - event.changedTouches[0].clientX
     if (!touch.moved && Math.abs(viewport.scrollTop - touch.top) < 3 && Math.abs(dy) >= 64 && Math.abs(dy) > Math.abs(dx) * 1.3
@@ -67,24 +68,24 @@ export function attachSegmentNavigation(viewport, step) {
       : ['ArrowUp', 'PageUp'].includes(event.key) ? -1 : 0
     if (!direction) return
     event.preventDefault()
-    if (event.repeat) return
+    if (event.repeat || isBlocked()) return
     if (canScroll(direction)) viewport.scrollBy({ top: direction * (event.key.startsWith('Arrow') ? 48 : viewport.clientHeight * .85), behavior: 'instant' })
     else step(direction)
   }
   const touchcancel = () => { touch = null }
-  viewport.addEventListener('wheel', wheel, { passive: false })
-  viewport.addEventListener('touchstart', touchstart, { passive: true })
-  viewport.addEventListener('touchmove', touchmove, { passive: false })
-  viewport.addEventListener('touchend', touchend)
-  viewport.addEventListener('touchcancel', touchcancel)
-  viewport.addEventListener('keydown', keydown)
+  eventTarget.addEventListener('wheel', wheel, { passive: false })
+  eventTarget.addEventListener('touchstart', touchstart, { passive: true })
+  eventTarget.addEventListener('touchmove', touchmove, { passive: false })
+  eventTarget.addEventListener('touchend', touchend)
+  eventTarget.addEventListener('touchcancel', touchcancel)
+  eventTarget.addEventListener('keydown', keydown)
   return () => {
-    viewport.removeEventListener('wheel', wheel)
-    viewport.removeEventListener('touchstart', touchstart)
-    viewport.removeEventListener('touchmove', touchmove)
-    viewport.removeEventListener('touchend', touchend)
-    viewport.removeEventListener('touchcancel', touchcancel)
-    viewport.removeEventListener('keydown', keydown)
+    eventTarget.removeEventListener('wheel', wheel)
+    eventTarget.removeEventListener('touchstart', touchstart)
+    eventTarget.removeEventListener('touchmove', touchmove)
+    eventTarget.removeEventListener('touchend', touchend)
+    eventTarget.removeEventListener('touchcancel', touchcancel)
+    eventTarget.removeEventListener('keydown', keydown)
   }
 }
 

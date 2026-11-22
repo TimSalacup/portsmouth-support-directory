@@ -234,3 +234,30 @@ body { margin: 0; min-width: 320px; }
   .segment-window::before, .segment-window::after, .return-button, .return-button svg { transition: none; }
   .return-button:hover svg { transform: none; }
 }
+
+/* Both segment panes share the exact clipped window and travel a full height. */
+.segment-window { overflow: hidden; }
+.segment-window:focus { outline: none; }
+.segment-pane { position: absolute; inset: 0; min-height: 0; }
+.segment-content { animation: none; }
+.segment-pane--out { animation: segment-slide-out 440ms ease-out both; }
+.segment-pane--in { animation: segment-slide-in 440ms ease-out both; pointer-events: none; }
+.is-sliding .segment-scroll { overflow: hidden; }
+@keyframes segment-slide-out { from { transform: translateY(0); } to { transform: translateY(calc(-100% * var(--slide-direction))); } }
+@keyframes segment-slide-in { from { transform: translateY(calc(100% * var(--slide-direction))); } to { transform: translateY(0); } }
+.category-detail { height: min(640px, calc(100dvh - 136px)); }
+.segment-arrow { position: absolute; left: calc(50% + 12px); transform: translateX(-50%); width: 44px; height: 44px; display: grid; place-items: center; padding: 0; margin: 0; border: 0; background: transparent; color: #0D3C7C; cursor: pointer; }
+.segment-arrow[hidden] { display: none; }
+.segment-arrow[aria-disabled="true"] { cursor: default; }
+.previous-segment.segment-arrow { bottom: calc(100% + 8px); top: auto; }
+.next-segment.segment-arrow { top: calc(100% + 8px); bottom: auto; }
+.previous-segment svg { animation: segment-hint-up 1600ms ease-out infinite; }
+@keyframes segment-hint-up { 0%, 100% { opacity: .5; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-4px); } }
+@media (min-width: 640px) and (max-width: 1023px) { .is-open .category-slot.is-selected, .is-open .category-detail { align-self: center; } }
+@media (max-width: 639px) {
+  .category-detail { margin-top: 40px; height: calc(100dvh - clamp(64px, 18dvh, 160px) - 176px); }
+  .segment-arrow { left: 50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .segment-pane--in, .segment-pane--out, .segment-arrow svg { animation: none; }
+}
