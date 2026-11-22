@@ -1,14 +1,17 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { attachSegmentNavigation } from './segment-navigation.mjs'
+import { canLinkContact, CRISIS_SOURCE_NOTE } from './verbatim-content.mjs'
 
 function SegmentContent({ segment, category, headingRef }) {
-  return <article className="segment-content">
+  return <><article className="segment-content">
     <h2 ref={headingRef} tabIndex={-1}>{segment?.title || category}</h2>
     {segment?.description && <p className="segment-description">{segment.description}</p>}
-    {segment?.contacts?.length > 0 && <ul className="segment-contacts">{segment.contacts.map((contact, i) => <li key={`${contact.label}-${i}`}>
-      {contact.href ? <a href={contact.href}>{contact.label}</a> : <span>{contact.label}</span>}
-    </li>)}</ul>}
+    {segment?.contacts?.length > 0 && <div className="segment-contact-block"><h3 className="segment-contact-heading">Contact details</h3><ul className="segment-contacts">{segment.contacts.map((contact, i) => <li key={`${contact.label}-${i}`}>
+      {canLinkContact(category, contact) ? <a href={contact.href}>{contact.label}</a> : <span>{contact.label}</span>}
+    </li>)}</ul></div>}
   </article>
+    {category === 'Mental Health in Crisis' && <aside className="crisis-source-note">{CRISIS_SOURCE_NOTE}</aside>}
+  </>
 }
 
 export default function DetailPanel({ category, segments, close, active }) {

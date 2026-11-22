@@ -2,127 +2,135 @@
   "mental-wellbeing-resources": [
     {
       "title": "Portsmouth Mental Health Hub",
-      "description": "Local advisers help people find the right mental health support in Portsmouth, including when they are concerned about someone else. The hub is for people aged 16 and over; see its site for current hours.",
+      "description": "A phoneline to help people get the right support for their mental health. Available Monday to Friday, 8am-6pm, for anyone aged 16 and over. Fully trained call handlers help people find the best support for their needs or offer advice if they are concerned about someone else.",
       "contacts": [
         {
-          "label": "Mental Health Hub: 0300 123 6621",
+          "label": "Phone: 0300 123 6621",
           "href": "tel:+443001236621"
         },
         {
-          "label": "Mental Health Hub",
-          "href": "https://mentalhealthinportsmouth.co.uk/about-the-hub/"
+          "label": "Website: https://healthandcare.portsmouth.gov.uk/mental-health/",
+          "href": "https://healthandcare.portsmouth.gov.uk/mental-health/"
         }
       ]
     },
     {
       "title": "Talking Therapies Portsmouth",
-      "description": "NHS practitioners help people manage difficulties such as depression, anxiety, panic and phobias. The service offers guided self-help, groups and talking therapies. Visit the service page for access and referrals.",
+      "description": "Trained practitioners help people understand and find ways of tackling, coping with and working through life’s problems, including depression, anxiety, panic attacks, phobias, stress, obsessions, anger and other psychological difficulties. Treatment options include group therapy, guided self-help, Cognitive Behavioural Therapy (CBT) and Interpersonal Therapy.",
       "contacts": [
         {
-          "label": "Portsmouth referrals: 0300 123 3934",
-          "href": "tel:+443001233934"
+          "label": "Phone: 0300 123 4125",
+          "href": null
         },
         {
-          "label": "NHS Talking Therapies Portsmouth",
+          "label": "Website: https://www.talkingtherapieshiow.nhs.uk/portsmouth",
           "href": "https://www.talkingtherapieshiow.nhs.uk/portsmouth"
         }
       ]
     },
     {
       "title": "Kooth",
-      "description": "Free online wellbeing support for eligible young people, with counsellor messaging, moderated discussions, journalling and self-help. Check the website for availability in your area.",
+      "description": "Kooth is a free online counselling and wellbeing support service available to young people aged 11-25 in Portsmouth and other areas. Young people can chat to counsellors via message or live chat, join discussion boards, write journals and read helpful articles. No waiting lists or referrals are required.",
       "contacts": [
         {
-          "label": "Kooth",
+          "label": "Website: https://www.kooth.com/",
           "href": "https://www.kooth.com/"
+        },
+        {
+          "label": "Counselling: Weekdays 12pm-10pm; weekends 6pm-10pm",
+          "href": null
         }
       ]
     },
     {
       "title": "HIVE Portsmouth",
-      "description": "A community network and helpdesk connecting people with local charities, voluntary organisations and practical support.",
+      "description": "HIVE Portsmouth is a strategic partnership involving the voluntary and community sector, NHS Portsmouth Clinical Commissioning Group and Portsmouth City Council. It connects people and organisations to share, support and learn, helping build a happier, healthier and more connected city.",
       "contacts": [
         {
-          "label": "Community helpdesk: 023 9400 7124",
+          "label": "Phone: 023 9400 7124",
           "href": "tel:+442394007124"
         },
         {
-          "label": "HIVE Portsmouth contact options",
-          "href": "https://hiveportsmouth.org.uk/contact-us"
+          "label": "Website: https://hiveportsmouth.org.uk/",
+          "href": "https://hiveportsmouth.org.uk/"
         },
         {
-          "label": "Email HIVE Portsmouth",
+          "label": "Email: info@hiveportsmouth.org.uk",
           "href": "mailto:info@hiveportsmouth.org.uk"
         }
       ]
     },
     {
-      "title": "Reading Well – Books on Prescription",
-      "description": "Recommended self-help books on common health and wellbeing topics. Find the reading lists online or ask at your local library.",
+      "title": "Reading Well - Books on Prescription",
+      "description": "Self-help books for managing common conditions. Visit your local library or the website for more information.",
       "contacts": [
         {
-          "label": "Reading Well",
-          "href": "https://reading-well.org.uk/"
+          "label": "Website: https://www.reading-well.org.uk/",
+          "href": "https://www.reading-well.org.uk/"
         }
       ]
     },
     {
       "title": "Mindfulness",
-      "description": "These resources offer guided mindfulness exercises and ways to practise noticing thoughts and feelings. Check providers for access and prices.",
+      "description": "Meditation exercises to help people pay attention to the present moment and become more aware of their thoughts and feelings. People use mindfulness to support wellbeing when dealing with stress, anxiety, depression, fatigue, sleep problems, addictions, relationship difficulties or chronic pain.",
       "contacts": [
         {
-          "label": "Headspace",
+          "label": "Website: https://www.headspace.com/ (not a free service)",
           "href": "https://www.headspace.com/"
         },
         {
-          "label": "Be Mindful",
+          "label": "Website: https://www.bemindful.co.uk/ (referrals only)",
           "href": "https://www.bemindful.co.uk/"
+        },
+        {
+          "label": "Website: https://www.mindfulness.org/ (not a free service)",
+          "href": "https://www.mindfulness.org/"
         }
       ]
     },
     {
-      "title": "Positive Minds – Solent Mind",
-      "description": "The PDF’s Positive Minds entry describes local peer support. Solent Mind now directs Portsmouth residents to its Community Peer Service and explains the current referral route on its service page.",
+      "title": "Positive Minds - Solent Mind",
+      "description": "Support for people experiencing difficulties related to housing, money, relationships, work, bereavement, leaving the armed forces or living away from home at university, as well as low mood, anxiety or hopelessness. Friendly advisors with shared experience of mental health difficulties help people access the support they need.",
       "contacts": [
         {
-          "label": "Solent Mind Community Peer Service",
-          "href": "https://www.solentmind.org.uk/support-for-you/our-services/community-peer-service-portsmouth/"
+          "label": "Phone: 023 8202 7810",
+          "href": null
+        },
+        {
+          "label": "Website: www.solentmind.org.uk/support-for-you/our-services/portsmouthwellbeingpeersupport/",
+          "href": "https://www.solentmind.org.uk/support-for-you/our-services/portsmouthwellbeingpeersupport/"
         }
       ]
     },
     {
       "title": "Solent Recovery College",
-      "description": "The former Solent Recovery College is now part of the Hampshire and Isle of Wight Wellbeing & Recovery College, offering online and in-person courses. Enrol before booking a course.",
+      "description": "Solent Recovery College runs classes online using Zoom, along with face-to-face sessions. Students must be enrolled to book a course, and registration is available through the college.",
       "contacts": [
         {
-          "label": "College enquiries: 023 8231 0262",
+          "label": "Phone: 02382 310 262",
           "href": "tel:+442382310262"
         },
         {
-          "label": "Wellbeing & Recovery College contact",
-          "href": "https://wellbeingrecoverycollege.hiowhealthcare.nhs.uk/contact-us"
+          "label": "Email: src@solentmind.org.uk",
+          "href": "mailto:src@solentmind.org.uk"
         },
         {
-          "label": "Email the college",
-          "href": "mailto:hiowh.wellbeingrecoverycollege@nhs.net"
+          "label": "Website: www.solentmind.org.uk/support-for-you/our-services/solent-recovery-college",
+          "href": "https://www.solentmind.org.uk/support-for-you/our-services/solent-recovery-college"
         }
       ]
     },
     {
       "title": "Mind",
-      "description": "Information and practical support for people experiencing mental health difficulties, including signposting to local services.",
+      "description": "Provides advice and support to empower anyone experiencing a mental health problem.",
       "contacts": [
         {
-          "label": "Information line: 0300 123 3393",
-          "href": "tel:+443001233393"
+          "label": "Phone: 0300 123 3393 / 0300 102 1234",
+          "href": null
         },
         {
-          "label": "Support line: 0300 102 1234",
-          "href": "tel:+443001021234"
-        },
-        {
-          "label": "Mind information and support",
-          "href": "https://www.mind.org.uk/information-support/"
+          "label": "Website: https://www.mind.org.uk/",
+          "href": "https://www.mind.org.uk/"
         }
       ]
     }
@@ -130,19 +138,19 @@
   "veterans-support": [
     {
       "title": "Veterans Outreach Support (VOS)",
-      "description": "Wellbeing, welfare and mental health support for veterans and their families, with a Portsmouth office at the Royal Maritime Hotel. Check with the provider for drop-in and referral information.",
+      "description": "Based in the Royal Maritime Club (formerly the Royal Sailors Home Club) in Portsmouth, Veterans Outreach Support provides a monthly drop-in facility for ex-servicemen and their direct family members, where they can be assessed by clinical staff, including a psychiatrist and psychologist.",
       "contacts": [
         {
-          "label": "Portsmouth office: 023 9273 1767",
+          "label": "Phone: 02392 731 767",
           "href": "tel:+442392731767"
         },
         {
-          "label": "Veterans Outreach Support contact",
-          "href": "https://vosuk.org/what-we-do/contact-us/"
+          "label": "Email: admin@vosuk.org",
+          "href": "mailto:admin@vosuk.org"
         },
         {
-          "label": "Email Veterans Outreach Support",
-          "href": "mailto:admin@vosuk.org"
+          "label": "Website: https://www.vosuk.org/",
+          "href": "https://www.vosuk.org/"
         }
       ]
     }
@@ -150,33 +158,29 @@
   "elderly-support": [
     {
       "title": "Remind",
-      "description": "A Solent Mind service offering practical help and activities for people with dementia and their carers in Portsmouth. See the provider for eligibility and referral options.",
+      "description": "The Remind team provides support for dementia clients and their carers throughout Portsmouth (PO1-PO6). Working alongside Solent NHS Trust’s Older Persons Mental Health Team (OPMH), it accepts referrals from consultants, GPs, OPMH staff and local care agencies, as well as self-referrals.",
       "contacts": [
         {
-          "label": "Remind team: 023 9421 7404",
-          "href": "tel:+442394217404"
-        },
-        {
-          "label": "Remind and referral information",
-          "href": "https://www.solentmind.org.uk/support-for-you/our-services/remind/"
-        },
-        {
-          "label": "Email the Remind team",
+          "label": "Email: remind@solentmind.org.uk",
           "href": "mailto:remind@solentmind.org.uk"
+        },
+        {
+          "label": "Website: www.solentmind.org.uk/support-for-you/our-services/remind",
+          "href": "https://www.solentmind.org.uk/support-for-you/our-services/remind"
         }
       ]
     },
     {
       "title": "Age UK (Portsmouth)",
-      "description": "Local services, information and activities for older people and those supporting them.",
+      "description": "Age UK aims to provide life-enhancing services and vital support to people in later life. Together with local partners, it delivers a range of services across the UK.",
       "contacts": [
         {
-          "label": "Reception: 023 9286 2121",
+          "label": "Phone: 023 9286 2121",
           "href": "tel:+442392862121"
         },
         {
-          "label": "Age UK Portsmouth contact",
-          "href": "https://www.ageuk.org.uk/portsmouth/about-us/contact-us/"
+          "label": "Website: https://www.ageuk.org.uk/portsmouth/",
+          "href": "https://www.ageuk.org.uk/portsmouth/"
         }
       ]
     }
@@ -184,15 +188,15 @@
   "relationship-support": [
     {
       "title": "Relate",
-      "description": "Counselling, information and support for relationships, including couples and families.",
+      "description": "Counselling, support and information for all relationships.",
       "contacts": [
         {
-          "label": "England service enquiries: 0300 100 1234",
+          "label": "Phone: 0300 100 1234",
           "href": "tel:+443001001234"
         },
         {
-          "label": "Relate contact options",
-          "href": "https://www.relate.org.uk/contact-us"
+          "label": "Website: https://www.relate.org.uk/",
+          "href": "https://www.relate.org.uk/"
         }
       ]
     }
@@ -200,33 +204,29 @@
   "bereavement": [
     {
       "title": "Cruse Bereavement Support",
-      "description": "Emotional support and information for people grieving after a death, with routes to local, one-to-one and group support.",
+      "description": "Provides support and care after a bereavement.",
       "contacts": [
         {
-          "label": "Bereavement support: 0808 808 1677",
+          "label": "Phone: 0808 808 1677",
           "href": "tel:+448088081677"
         },
         {
-          "label": "Cruse: get support",
-          "href": "https://www.cruse.org.uk/get-support/"
+          "label": "Website: https://www.cruse.org.uk/",
+          "href": "https://www.cruse.org.uk/"
         }
       ]
     },
     {
       "title": "Bereavement Support Groups",
-      "description": "The Bereavement Care service offers practical and emotional support after a loss, including one-to-one support and groups.",
+      "description": "Provides support and care for people experiencing bereavement.",
       "contacts": [
         {
-          "label": "Bereavement Care: 08081 691 922",
+          "label": "Phone: 08081 691 922",
           "href": "tel:+448081691922"
         },
         {
-          "label": "Bereavement Care contact",
-          "href": "https://bereavementcare.uk/contact/"
-        },
-        {
-          "label": "Email Bereavement Care",
-          "href": "mailto:info@bereavementcare.uk"
+          "label": "Website: https://www.bereavementsupportgroups.co.uk/",
+          "href": "https://www.bereavementsupportgroups.co.uk/"
         }
       ]
     }
@@ -234,19 +234,23 @@
   "citizens-advice": [
     {
       "title": "Citizens Advice",
-      "description": "Free and independent advice on benefits, work, debt, housing, consumer rights and other practical problems. Use the Portsmouth office for local advice and the national site for information.",
+      "description": "Offers free, independent, confidential and impartial advice to help people resolve issues that may affect their mental wellbeing, including benefits, work, finance, consumer matters, relationships, housing, discrimination, tax, education, healthcare and legal issues.",
       "contacts": [
         {
-          "label": "Portsmouth office: 023 9400 6600",
+          "label": "Phone: 02394 006 600",
           "href": "tel:+442394006600"
         },
         {
-          "label": "Portsmouth office and webchat",
-          "href": "https://casolenteast.org.uk/pages/citizens-advice-portsmouth"
+          "label": "Website: www.caportsmouth.org.uk (Portsmouth)",
+          "href": "https://www.caportsmouth.org.uk"
         },
         {
-          "label": "National Citizens Advice",
-          "href": "https://www.citizensadvice.org.uk/"
+          "label": "Website: www.adviceguide.org.uk (Nationwide)",
+          "href": "https://www.adviceguide.org.uk"
+        },
+        {
+          "label": "Webchat and email contact are also available",
+          "href": null
         }
       ]
     }
@@ -254,141 +258,103 @@
   "domestic-abuse-and-rape": [
     {
       "title": "PARCS (Portsmouth Abuse and Rape Counselling)",
-      "description": "Specialist counselling and support for people affected by sexual violence or domestic abuse in Portsmouth and South East Hampshire. The office handles counselling enquiries and referrals. PARCS no longer runs the dedicated helpline listed in the PDF.",
+      "description": "Provides specialist counselling and psychotherapy for survivors of sexual and/or domestic abuse. Services include counselling for parents, carers and family members, emotional telephone support, specialist support groups, training, prevention services and independent sexual violence advocacy for children and young people.",
       "contacts": [
         {
-          "label": "Counselling enquiries and referrals: 023 9266 9513",
+          "label": "Office: 023 9266 9513",
           "href": "tel:+442392669513"
         },
         {
-          "label": "Family Action PARCS service and referrals",
-          "href": "https://family-action.org.uk/services/parcs-sexual-and-domestic-abuse-counselling/"
+          "label": "Website: www.hampshirerasac.org.uk/services/parcs",
+          "href": "https://www.hampshirerasac.org.uk/services/parcs"
         },
         {
-          "label": "Portsmouth City Council contact information",
-          "href": "https://www.portsmouth.gov.uk/services/community-safety/domestic-abuse"
+          "label": "Helpline hours: Monday 11am-2pm; Tuesday and Thursday 4:30pm-8pm",
+          "href": null
         }
       ]
     },
     {
       "title": "Hampshire Domestic Abuse Partnership",
-      "description": "Information and an advice line for people affected by domestic abuse, their families and professionals in Hampshire.",
+      "description": "Provides an advice line for domestic abuse victims, survivors and professionals.",
       "contacts": [
         {
-          "label": "Hampshire Council-listed advice line: 0330 016 5112",
+          "label": "Phone: 03300 165 112",
           "href": "tel:+443300165112"
-        },
-        {
-          "label": "Hampshire County Council domestic abuse support",
-          "href": "https://www.hants.gov.uk/socialcareandhealth/domestic-abuse-partnership/support/ineedhelp"
         }
       ]
     },
     {
       "title": "Stop Domestic Abuse (Portsmouth)",
-      "description": "Specialist local support and confidential advice for people affected by domestic abuse or stalking.",
-      "contacts": [
-        {
-          "label": "Advice line: 0330 0533 630",
-          "href": "tel:+443300533630"
-        },
-        {
-          "label": "Stop Domestic Abuse: get help",
-          "href": "https://stopdomesticabuse.uk/get-help/"
-        }
-      ]
+      "description": "Domestic abuse support in Portsmouth.",
+      "contacts": []
     },
     {
       "title": "Aurora New Dawn",
-      "description": "Advocacy and support for people affected by domestic abuse, sexual violence or stalking. The service enquiries line is not an emergency line.",
-      "contacts": [
-        {
-          "label": "Service enquiries (not emergency): 023 9247 9254",
-          "href": "tel:+442392479254"
-        },
-        {
-          "label": "Aurora New Dawn contact",
-          "href": "https://aurorand.org.uk/contact-us/"
-        }
-      ]
+      "description": "Domestic abuse support.",
+      "contacts": []
     },
     {
       "title": "Yellow Door (Southampton)",
-      "description": "Southampton-based support and specialist services for people affected by domestic abuse, sexual violence and other interpersonal harm.",
+      "description": "Domestic abuse support in Southampton.",
       "contacts": [
         {
-          "label": "General enquiries: 023 8063 6312",
+          "label": "Phone: 023 8063 6312",
           "href": "tel:+442380636312"
-        },
-        {
-          "label": "Yellow Door contact",
-          "href": "https://yellowdoor.org.uk/start-here/contact-us/"
         }
       ]
     },
     {
-      "title": "YouTrust – Paragon Hampshire",
-      "description": "Practical and emotional support for people affected by domestic abuse, sexual violence or stalking. These contact details are for the Hampshire team.",
+      "title": "YouTrust - Paragon Hampshire",
+      "description": "Domestic abuse support in Hampshire.",
       "contacts": [
         {
-          "label": "Hampshire team: 0800 916 9878",
-          "href": "tel:+448009169878"
-        },
-        {
-          "label": "Paragon Hampshire team",
-          "href": "https://paragonteam.org.uk/teams/hampshire/"
+          "label": "Phone: 0800 234 6266",
+          "href": null
         }
       ]
     },
     {
       "title": "National Domestic Abuse Helpline",
-      "description": "Refuge provides confidential information and support for women experiencing domestic abuse in England.",
+      "description": "A national telephone helpline for people affected by domestic abuse.",
       "contacts": [
         {
-          "label": "Refuge domestic abuse support: 0808 2000 247",
+          "label": "Phone: 0808 2000 247",
           "href": "tel:+448082000247"
-        },
-        {
-          "label": "Refuge: get support",
-          "href": "https://www.nationaldahelpline.org.uk/"
         }
       ]
     },
     {
       "title": "Men’s Advice Line",
-      "description": "Advice and emotional support for men affected by domestic abuse, including information for people supporting them.",
+      "description": "A helpline for men affected by domestic abuse.",
       "contacts": [
         {
-          "label": "Men’s Advice Line: 0808 801 0327",
+          "label": "Phone: 0808 801 0327",
           "href": "tel:+448088010327"
-        },
-        {
-          "label": "Men’s Advice Line",
-          "href": "https://mensadviceline.org.uk/"
         }
       ]
     },
     {
       "title": "National LGBT+ Domestic Abuse Helpline",
-      "description": "Galop offers support for LGBT+ people affected by abuse or violence, including domestic abuse.",
+      "description": "A national helpline for LGBT+ people affected by domestic abuse.",
       "contacts": [
         {
-          "label": "LGBT+ abuse and violence support: 0800 999 5428",
+          "label": "Phone: 0800 999 5428",
           "href": "tel:+448009995428"
-        },
-        {
-          "label": "Galop: helpline details",
-          "href": "https://www.galop.org.uk/helpline"
         }
       ]
     },
     {
       "title": "Childline",
-      "description": "Confidential support for children and young people experiencing domestic abuse or worried about relationships at home.",
+      "description": "For children or young people experiencing domestic abuse in their home or relationship.",
       "contacts": [
         {
-          "label": "Contact Childline",
-          "href": "https://www.childline.org.uk/get-support/contacting-childline/"
+          "label": "Phone: 0800 1111",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.childline.org.uk/",
+          "href": "https://www.childline.org.uk/"
         }
       ]
     }
@@ -396,75 +362,54 @@
   "drugs-and-substance-abuse": [
     {
       "title": "Lifestyle Wellbeing",
-      "description": "Support for making changes around smoking, alcohol, activity and healthy weight. NHS Better Health replaces older One You resources, and Portsmouth lists local options.",
-      "contacts": [
-        {
-          "label": "NHS Better Health",
-          "href": "https://www.nhs.uk/better-health/"
-        },
-        {
-          "label": "Portsmouth health and wellbeing",
-          "href": "https://www.portsmouth.gov.uk/cost-of-living-hub/health-and-wellbeing"
-        }
-      ]
+      "description": "Stopping smoking, reducing alcohol intake, losing weight and taking more exercise are ways to maintain a healthy lifestyle. One You and LiveWell are resources that can help people achieve this.",
+      "contacts": []
     },
     {
       "title": "Wellbeing Service",
-      "description": "Free Portsmouth support to stop smoking, drink less alcohol, get active or work towards a healthy weight.",
+      "description": "A \"one stop\" service for Portsmouth residents, offering support and advice on giving up smoking, reducing alcohol consumption and maintaining a healthy weight.",
       "contacts": [
         {
-          "label": "Wellbeing Service: 023 9229 4001",
+          "label": "Council: 023 9229 4001",
           "href": "tel:+442392294001"
-        },
-        {
-          "label": "Portsmouth Wellbeing Service contact",
-          "href": "https://wellbeingportsmouth.co.uk/contact-us/"
-        },
-        {
-          "label": "Email Portsmouth Wellbeing Service",
-          "href": "mailto:wellbeing@portsmouthcc.gov.uk"
         }
       ]
     },
     {
       "title": "NHS Smokefree",
-      "description": "NHS information, tools and routes to support for people who want to stop smoking.",
+      "description": "Provides information and free support to help people stop smoking, improving their health and the health of their families.",
       "contacts": [
         {
-          "label": "NHS Better Health: quit smoking",
-          "href": "https://www.nhs.uk/better-health/quit-smoking/"
+          "label": "Website: https://www.nhs.uk/smokefree",
+          "href": "https://www.nhs.uk/smokefree"
         }
       ]
     },
     {
       "title": "Safer Portsmouth",
-      "description": "Portsmouth City Council’s current alcohol guide explains risks and where to get local help. It is a more direct route than the number in the original PDF.",
+      "description": "Offers information and resources to help people understand alcohol consumption, recognise health risks and find ways to cut back on drinking.",
       "contacts": [
         {
-          "label": "Portsmouth City Council alcohol guidance",
-          "href": "https://www.portsmouth.gov.uk/services/health-and-wellbeing/staying-healthy-and-well/alcohol-misuse"
+          "label": "Phone: 08457 90 90 90",
+          "href": null
+        },
+        {
+          "label": "Website: www.saferportsmouth.org.uk",
+          "href": "https://www.saferportsmouth.org.uk"
         }
       ]
     },
     {
-      "title": "Portsmouth Recovery Hub and FRANK",
-      "description": "The local Recovery Hub helps people access drug and alcohol services. FRANK is a separate national drug-information service. Use the contact route that matches the support you need.",
+      "title": "Portsmouth Recovery HUB: FRANK",
+      "description": "Offers treatment, support and advice on the use and misuse of alcohol and drugs.",
       "contacts": [
         {
-          "label": "Recovery Hub: 023 9229 4573",
-          "href": "tel:+442392294573"
+          "label": "Phone: 02392 294573 / 0300 123 6600",
+          "href": null
         },
         {
-          "label": "Portsmouth Recovery Hub NHS listing",
-          "href": "https://www.nhs.uk/services/service-directory/portsmouth-recovery-hub/N10871041"
-        },
-        {
-          "label": "Drug information and advice: 0300 123 6600",
-          "href": "tel:+443001236600"
-        },
-        {
-          "label": "Contact FRANK",
-          "href": "https://www.talktofrank.com/contact"
+          "label": "Website: https://www.talktofrank.com/",
+          "href": "https://www.talktofrank.com/"
         }
       ]
     }
@@ -472,167 +417,175 @@
   "end-of-life-support": [
     {
       "title": "Macmillan Cancer Support",
-      "description": "Practical, emotional and financial information and support for people affected by cancer and those close to them.",
+      "description": "Provides information and support for people affected by cancer.",
       "contacts": [
         {
-          "label": "Macmillan Support Line: 0808 808 0000",
+          "label": "Phone: 0808 808 00 00",
           "href": "tel:+448088080000"
         },
         {
-          "label": "Macmillan Cancer Support services",
-          "href": "https://www.macmillan.org.uk/cancer-information-and-support/get-help/macmillan-services"
+          "label": "Website: https://www.macmillan.org.uk/",
+          "href": "https://www.macmillan.org.uk/"
+        },
+        {
+          "label": "Helpline: Monday-Friday, 9am-8pm",
+          "href": null
         }
       ]
     },
     {
       "title": "Cancer Research UK",
-      "description": "Information about cancer and treatment, including access to specialist cancer information nurses.",
+      "description": "Provides cancer-related information and access to a telephone helpline.",
       "contacts": [
         {
-          "label": "Cancer information nurses: 0808 800 4040",
+          "label": "Phone: 0808 800 4040",
           "href": "tel:+448088004040"
         },
         {
-          "label": "Cancer Research UK: ask the nurses",
-          "href": "https://forms.cancerresearchuk.org/talk-to-our-nurses"
+          "label": "Website: https://www.cancerresearchuk.org/",
+          "href": "https://www.cancerresearchuk.org/"
+        },
+        {
+          "label": "Helpline: Monday-Friday, 9am-5pm",
+          "href": null
         }
       ]
     },
     {
       "title": "Harbour Cancer Support",
-      "description": "A Gosport centre offering practical and emotional support to people affected by cancer, including friends, relatives and carers. The centre is at 2 Stoke Road, Gosport, PO12 1JB.",
+      "description": "Offers practical and emotional support to anyone affected by cancer. Provides a safe haven for cancer patients, their families, friends and carers, with access to vital support for as long as needed.",
       "contacts": [
         {
-          "label": "Gosport support centre: 023 9250 1503",
+          "label": "Address: 2 Stoke Road, Gosport, Hampshire, PO12 1JB",
+          "href": null
+        },
+        {
+          "label": "Phone: 02392 501503",
           "href": "tel:+442392501503"
         },
         {
-          "label": "NHS listing and contact details",
-          "href": "https://www.nhs.uk/services/service-directory/harbour-cancer-support-centre/N10954101"
+          "label": "Email: admin@harbourcancer.org.uk",
+          "href": "mailto:admin@harbourcancer.org.uk"
         },
         {
-          "label": "Email Harbour Cancer Support",
-          "href": "mailto:admin@harbourcancer.org.uk"
+          "label": "Opening hours: Monday-Friday, 10am-4pm",
+          "href": null
         }
       ]
     },
     {
-      "title": "Macmillan Cancer Information and Support Service – Queen Alexandra Hospital",
-      "description": "Support for people affected by cancer, their families, friends and carers. The hospital centre offers a place to talk and helps people find information and practical support.",
+      "title": "Macmillan Cancer Information and Support Service - Queen Alexandra Hospital",
+      "description": "A welcoming environment where support and information are offered to people affected by cancer, their relatives, friends and carers. Services include therapies, counselling, hair loss clinics, and welfare and benefits advice.",
       "contacts": [
         {
-          "label": "Queen Alexandra Hospital centre: 023 9228 3323",
+          "label": "Address: B Level, Queen Alexandra Hospital, Cosham, Portsmouth, PO6 3LY",
+          "href": null
+        },
+        {
+          "label": "Phone: 02392 283323",
           "href": "tel:+442392283323"
         },
         {
-          "label": "Queen Alexandra Hospital Macmillan centre",
-          "href": "https://www.porthosp.nhs.uk/departments-and-services/macmillan-information-and-support-centre"
-        },
-        {
-          "label": "Email the Macmillan Centre",
-          "href": "mailto:pho-tr.macmillancentre@nhs.net"
+          "label": "Email: macmillancentre@porthosp.nhs.uk",
+          "href": "mailto:macmillancentre@porthosp.nhs.uk"
         }
       ]
     },
     {
-      "title": "Macmillan Cancer Information and Support Service – Chichester",
-      "description": "The Macmillan Information Hub at St Richard’s Hospital offers cancer information, emotional support and signposting to financial and other practical help.",
+      "title": "Macmillan Cancer Information and Support Service - Chichester",
+      "description": "Provides support to those affected by a cancer diagnosis, including information, a dedicated Macmillan/CAB benefits advice service, therapies, massages and other forms of relaxation.",
       "contacts": [
         {
-          "label": "Chichester information hub: 01243 831727",
+          "label": "Address: Spitafield Lane, Chichester, West Sussex, PO19 6SE",
+          "href": null
+        },
+        {
+          "label": "Phone: 01243 831727",
           "href": "tel:+441243831727"
         },
         {
-          "label": "St Richard’s Hospital Macmillan hub",
-          "href": "https://www.uhsussex.nhs.uk/services/cancer-care/support/macmillan-2/macmillan/"
+          "label": "Email: Helen.fowler@wsht.nhs.uk",
+          "href": "mailto:Helen.fowler@wsht.nhs.uk"
         }
       ]
     },
     {
-      "title": "Wessex Cancer Support",
-      "description": "Previously Wessex Cancer Trust. The charity offers emotional and practical support to people affected by cancer. Check its current centre list rather than relying on the older Cosham listing.",
+      "title": "Wessex Cancer Trust - Cosham Cancer Support Centre",
+      "description": "Provides volunteer befrienders who offer information, support and a listening ear. Specialist counsellors help people manage the emotional impact of cancer, while therapists support wellbeing, pain management and self-confidence.",
       "contacts": [
         {
-          "label": "Head office enquiries: 023 8067 2200",
-          "href": "tel:+442380672200"
-        },
-        {
-          "label": "Current Wessex Cancer Support contact details",
-          "href": "https://www.wessexcancer.org.uk/contact-us/"
+          "label": "Email: Cosham.centre@wessexcancer.org.uk",
+          "href": "mailto:Cosham.centre@wessexcancer.org.uk"
         }
       ]
     },
     {
       "title": "Dying Matters",
-      "description": "Hospice UK resources for conversations about dying and grief, plus a directory of hospice care.",
+      "description": "Helps people needing palliative care and related support. Provides access to a wide range of services, including support groups and help with caring for patients.",
       "contacts": [
         {
-          "label": "Dying Matters",
-          "href": "https://www.hospiceuk.org/our-campaigns/dying-matters"
-        },
-        {
-          "label": "Hospice Care Finder",
-          "href": "https://www.hospiceuk.org/hospice-care-finder"
+          "label": "Website: http://help.dyingmatters.org/servicefinder/self/",
+          "href": "http://help.dyingmatters.org/servicefinder/self/"
         }
       ]
     },
     {
       "title": "Countess Mountbatten",
-      "description": "Now Mountbatten Hampshire. The hospice offers specialist care and support for people with life-limiting illnesses and their families in the Southampton area.",
+      "description": "Provides specialist care for palliative patients and their families, offering all levels of care.",
       "contacts": [
         {
-          "label": "Community care coordination: 023 8254 8860",
-          "href": "tel:+442382548860"
+          "label": "Address: Moorgreen Hospital, Botley Road, West End, Southampton, SO30 3JB",
+          "href": null
         },
         {
-          "label": "Mountbatten Hampshire referrals",
-          "href": "https://www.mountbatten-hampshire.org.uk/refer-someone"
+          "label": "Phone: 023 8254 8860",
+          "href": "tel:+442382548860"
         }
       ]
     },
     {
       "title": "Rowans Hospice",
-      "description": "Palliative and hospice services for people with life-limiting illnesses and their families in Portsmouth and South East Hampshire. Check the access route for each service.",
+      "description": "Provides the best possible quality of life and ensures individuals and their families are treated with dignity and respect.",
       "contacts": [
         {
-          "label": "Hospice enquiries: 023 9225 0001",
+          "label": "Address: Purbrook Heath Road, Purbrook, Waterlooville, Hampshire, PO7 5RU",
+          "href": null
+        },
+        {
+          "label": "Phone: 02392 250001",
           "href": "tel:+442392250001"
         },
         {
-          "label": "Rowans Hospice contact",
-          "href": "https://www.rowanshospice.co.uk/contact-us/"
-        },
-        {
-          "label": "Email Rowans Hospice general enquiries",
+          "label": "Email: info@rowanshospice.co.uk",
           "href": "mailto:info@rowanshospice.co.uk"
         }
       ]
     },
     {
       "title": "St Wilfrid’s Chichester",
-      "description": "Palliative care and family support in and around Chichester, including hospice care at home. The current hospice site is in Bosham.",
+      "description": "Provides patients and their loved ones with the care they deserve, helping them achieve the best quality of life for as long as possible.",
       "contacts": [
         {
-          "label": "Hospice enquiries: 01243 775302",
-          "href": "tel:+441243775302"
+          "label": "Address: Grosvenor Road, Chichester, PO19 8FP",
+          "href": null
         },
         {
-          "label": "St Wilfrid’s Hospice",
-          "href": "https://stwh.co.uk/"
+          "label": "Phone: 01243 775302",
+          "href": "tel:+441243775302"
         }
       ]
     },
     {
       "title": "The Rosemary Foundation",
-      "description": "Hospice-at-home nursing, emotional support and bereavement services in Petersfield and surrounding areas. Use the public office for general enquiries.",
+      "description": "Provides a \"Hospice at Home\" service, offering help, nursing care, emotional support and counselling to people in Petersfield and surrounding towns and villages.",
       "contacts": [
         {
-          "label": "Hospice at Home general enquiries: 01730 266329",
-          "href": "tel:+441730266329"
+          "label": "Address: 35 Lavant Street, Petersfield, GU32 3EL",
+          "href": null
         },
         {
-          "label": "The Rosemary Foundation contact",
-          "href": "https://rosemary-foundation.org.uk/contact-us/"
+          "label": "Phone: 01730 269996",
+          "href": null
         }
       ]
     }
@@ -640,185 +593,213 @@
   "paediatrics": [
     {
       "title": "Hampshire Specialist CAMHS",
-      "description": "Specialist mental health services for children and young people. Hampshire and Portsmouth have separate referral routes; use the provider page for your area.",
+      "description": "A specialist mental health service for children and young people. Families are encouraged to access local community health services and early intervention support before referral to specialist CAMHS.",
       "contacts": [
         {
-          "label": "Regional Hampshire CAMHS referral enquiries",
-          "href": "https://www.hampshirecamhs.nhs.uk/contact-us"
+          "label": "Website: https://www.hampshirecamhs.nhs.uk/",
+          "href": "https://www.hampshirecamhs.nhs.uk/"
         },
         {
-          "label": "Portsmouth CAMHS referrals: 0300 123 6632",
+          "label": "Single Point of Access: 0300 123 6632",
           "href": "tel:+443001236632"
         },
         {
-          "label": "Portsmouth CAMHS referral information",
-          "href": "https://hiowhealthcare.nhs.uk/our-services/a-z-list-of-services/child-and-adolescent-mental-health-service-camhs-portsmouth"
+          "label": "Availability: Monday-Friday, 9am-5pm",
+          "href": null
         }
       ]
     },
     {
       "title": "Barnardo’s Hampshire Specialist Parenting Support Service",
-      "description": "The PDF lists a Barnardo’s parenting support service. Use the current service finder to check the support available near you, as the original service link could not be confirmed.",
+      "description": "An early intervention resource for children, young people and their families before specialist CAMHS referral.",
       "contacts": [
         {
-          "label": "Barnardo’s support for parents and carers",
-          "href": "https://www.barnardos.org.uk/get-support/support-for-parents-and-carers/family-hubs-family-centres"
+          "label": "Website: www.barnardos.org.uk/HSPSS",
+          "href": "https://www.barnardos.org.uk/HSPSS"
         }
       ]
     },
     {
       "title": "Catch 22",
-      "description": "Catch22’s Hampshire 24/7 service supports eligible young people and families affected by substance use. Visit the service page for local coverage and referral information.",
+      "description": "A community support and early intervention service for young people.",
       "contacts": [
         {
-          "label": "Hampshire 24/7 substance-use service: 0800 599 9591",
+          "label": "Phone: 0800 5999 591",
           "href": "tel:+448005999591"
         },
         {
-          "label": "Catch22 Hampshire 24/7",
-          "href": "https://www.catch-22.org.uk/find-services/hampshire-247/"
-        },
-        {
-          "label": "Email Hampshire 24/7",
-          "href": "mailto:247hants@catch-22.org.uk"
+          "label": "Website: https://www.catch-22.org.uk/",
+          "href": "https://www.catch-22.org.uk/"
         }
       ]
     },
     {
       "title": "Hampshire Youth Access",
-      "description": "Therapeutic and wellbeing support for children and young people. The provider explains eligibility and referral rules for each locality.",
+      "description": "A counselling and early intervention resource for young people.",
       "contacts": [
         {
-          "label": "Service enquiries: 023 8214 7755",
+          "label": "Phone: 02382 147755",
           "href": "tel:+442382147755"
         },
         {
-          "label": "Hampshire Youth Access contact",
-          "href": "https://hampshireyouthaccess.org.uk/contact/"
+          "label": "Website: www.hampshireyouthaccess.org.uk/counselling",
+          "href": "https://www.hampshireyouthaccess.org.uk/counselling"
         }
       ]
     },
     {
       "title": "Simon Says (Bereavement)",
-      "description": "Hampshire support for children and young people affected by the death or serious illness of someone important to them.",
+      "description": "A bereavement support resource for children and young people.",
       "contacts": [
         {
-          "label": "Child bereavement support: 023 8064 7550",
+          "label": "Phone: 023 8064 7550",
           "href": "tel:+442380647550"
         },
         {
-          "label": "Contact Simon Says",
-          "href": "https://www.simonsays.org.uk/contact/"
+          "label": "Website: https://www.simonsays.org.uk/",
+          "href": "https://www.simonsays.org.uk/"
         }
       ]
     },
     {
       "title": "Childline",
-      "description": "Confidential support for children and young people facing bullying, abuse, problems at home or other worries.",
+      "description": "Provides free support to children and young people facing difficulties such as abuse, bullying, mental health concerns, family problems, relationships and other distressing experiences.",
       "contacts": [
         {
-          "label": "Contact Childline",
-          "href": "https://www.childline.org.uk/get-support/contacting-childline/"
+          "label": "Phone: 0800 11 11",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.childline.org.uk/",
+          "href": "https://www.childline.org.uk/"
         }
       ]
     },
     {
       "title": "The Mix",
-      "description": "Online information and support for people under 25, covering topics including mental health, relationships and money. Check the provider’s site for current ways to get support.",
+      "description": "Provides support for young people under 25.",
       "contacts": [
         {
-          "label": "The Mix: get support",
-          "href": "https://www.themix.org.uk/get-support/"
+          "label": "Phone: 0808 808 4994",
+          "href": null
+        },
+        {
+          "label": "Text: THEMIX to 85258",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.themix.org.uk/",
+          "href": "https://www.themix.org.uk/"
         }
       ]
     },
     {
       "title": "Anxiety UK",
-      "description": "Resources and support for people experiencing anxiety, including young people and those supporting them. See the provider’s current contact options.",
+      "description": "Provides support for children and young people experiencing anxiety.",
       "contacts": [
         {
-          "label": "Anxiety information line: 0344 477 5774",
-          "href": "tel:+443444775774"
+          "label": "Text support: 07537 416905",
+          "href": null
         },
         {
-          "label": "Anxiety UK contact options",
-          "href": "https://www.anxietyuk.org.uk/anxiety-uk-contact/"
+          "label": "Website: https://www.anxietyuk.org.uk/",
+          "href": "https://www.anxietyuk.org.uk/"
         }
       ]
     },
     {
       "title": "Anna Freud National Centre for Children and Families",
-      "description": "Mental health and wellbeing resources for children, young people, parents, carers and professionals.",
+      "description": "Provides a range of support for children, young people, parents and families up to age 25. Its \"On My Mind\" website section helps young people make informed choices about their mental health and wellbeing.",
       "contacts": [
         {
-          "label": "Anna Freud resources",
+          "label": "Website: https://www.annafreud.org/",
           "href": "https://www.annafreud.org/"
         }
       ]
     },
     {
       "title": "Young Minds",
-      "description": "Information for young people with mental health concerns and advice for parents and carers. The Parents Helpline is not a crisis service.",
+      "description": "Provides mental health information and support for young people and their parents. Its Parents Helpline is available to adults concerned about a young person aged 0-25.",
       "contacts": [
         {
-          "label": "Parents and carers advice (not a crisis service): 0808 802 5544",
+          "label": "Helpline: 0808 802 5544",
           "href": "tel:+448088025544"
         },
         {
-          "label": "YoungMinds Parents Helpline",
-          "href": "https://www.youngminds.org.uk/parent/parents-helpline/"
+          "label": "Text: YM to 85258",
+          "href": null
         },
         {
-          "label": "YoungMinds resources",
+          "label": "Website: https://www.youngminds.org.uk/",
           "href": "https://www.youngminds.org.uk/"
+        },
+        {
+          "label": "Helpline: Monday-Friday, 9:30am-4pm",
+          "href": null
         }
       ]
     },
     {
       "title": "No Panic",
-      "description": "Information and support for people affected by panic attacks, phobias and anxiety, including advice for people supporting them.",
+      "description": "Provides support for people living with panic attacks, phobias, OCD and other anxiety-related disorders, as well as carers of people affected by these conditions.",
       "contacts": [
         {
-          "label": "Panic and anxiety support: 0300 772 9844",
+          "label": "Helpline: 0300 772 9844",
           "href": "tel:+443007729844"
         },
         {
-          "label": "No Panic current support options",
-          "href": "https://nopanic.org.uk/the-no-panic-helpline/"
+          "label": "Youth helpline: 0330 606 1174",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.nopanic.org.uk/",
+          "href": "https://www.nopanic.org.uk/"
+        },
+        {
+          "label": "Main helpline: Daily, 10am-10pm",
+          "href": null
         }
       ]
     },
     {
       "title": "Mental Health Support Teams (MHST)",
-      "description": "Mental Health Support Teams work through Portsmouth schools. Families can ask their school about the support available and how to make a referral.",
+      "description": "Provides face-to-face mental health support within Portsmouth primary and secondary schools. Schools can make families aware of the service and refer students for support.",
       "contacts": [
         {
-          "label": "Portsmouth City Council school support guidance",
-          "href": "https://www.portsmouth.gov.uk/mental-health-support-guidance-for-11-16-year-olds/quick-guide-to-mental-health-for-11-16-year-olds"
+          "label": "Email: MHSTCamhsPortsmouth@solent.nhs.uk",
+          "href": "mailto:MHSTCamhsPortsmouth@solent.nhs.uk"
         }
       ]
     },
     {
       "title": "Kooth.com",
-      "description": "Online emotional wellbeing support for eligible young people, including moderated peer support, counselling and self-help resources. Check eligibility and register on the website.",
+      "description": "Provides a safe digital emotional health and wellbeing service, including self-help resources, moderated peer support and professional counselling. Young people can self-register online without a referral.",
       "contacts": [
         {
-          "label": "Kooth",
+          "label": "Website: https://www.kooth.com/",
           "href": "https://www.kooth.com/"
+        },
+        {
+          "label": "Counselling: Monday-Friday, 12pm-10pm; weekends 6pm-10pm",
+          "href": null
         }
       ]
     },
     {
       "title": "Talking Change Portsmouth",
-      "description": "Now NHS Talking Therapies Portsmouth. The service supports eligible people aged 16 and over who are registered with a Portsmouth GP, and accepts self-referrals.",
+      "description": "Provides a range of therapies and treatments for people aged 16 and over experiencing common mental health difficulties, in individual or group settings. Self-referrals are accepted.",
       "contacts": [
         {
-          "label": "Portsmouth referrals: 0300 123 3934",
+          "label": "Phone: 0300 123 3934",
           "href": "tel:+443001233934"
         },
         {
-          "label": "NHS Talking Therapies Portsmouth referrals",
-          "href": "https://www.talkingtherapieshiow.nhs.uk/portsmouth"
+          "label": "Website: https://www.talkingchange.nhs.uk/",
+          "href": "https://www.talkingchange.nhs.uk/"
+        },
+        {
+          "label": "Hours: Monday-Thursday 8am-8pm; Friday 8am-5pm; Saturday 9am-1pm",
+          "href": null
         }
       ]
     }
@@ -826,51 +807,101 @@
   "mental-health-in-crisis": [
     {
       "title": "NHS Urgent Mental Health Support",
-      "description": "The NHS explains the options for urgent mental health support in England and what to do in a mental health emergency.",
+      "description": "For support in a mental health crisis and to prevent self-harm or suicide, contact NHS 111 or emergency services on 999.",
       "contacts": [
         {
-          "label": "NHS: where to get urgent help",
-          "href": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+          "label": "NHS: 111",
+          "href": null
+        },
+        {
+          "label": "Emergency: 999",
+          "href": null
+        }
+      ]
+    },
+    {
+      "title": "HopeLineUK",
+      "description": "Provides support for children and young people experiencing thoughts of suicide, and for those concerned about a young person experiencing suicidal thoughts.",
+      "contacts": [
+        {
+          "label": "Phone: 0800 068 4141",
+          "href": null
+        },
+        {
+          "label": "Text: 07786 209 697",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.papyrus-uk.org/hopelineuk",
+          "href": "https://www.papyrus-uk.org/hopelineuk"
         }
       ]
     },
     {
       "title": "Samaritans",
-      "description": "Confidential listening support for anyone going through a difficult time. Read the provider’s page for current ways to make contact.",
+      "description": "Provides someone to talk to by phone or online for people experiencing emotional distress or needing confidential support.",
       "contacts": [
         {
-          "label": "Contact Samaritans",
-          "href": "https://www.samaritans.org/how-we-can-help/contact-samaritan/"
+          "label": "Phone: 116 123",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.samaritans.org/",
+          "href": "https://www.samaritans.org/"
+        },
+        {
+          "label": "Availability: 24/7",
+          "href": null
         }
       ]
     },
     {
       "title": "SHOUT",
-      "description": "Text-based mental health support in the UK. The provider explains how to start a conversation and how the service works.",
+      "description": "A free, anonymous and confidential text support service for people experiencing a mental health crisis.",
       "contacts": [
         {
-          "label": "Shout: get help",
-          "href": "https://giveusashout.org/get-help/"
+          "label": "Text: SHOUT to 85258",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.giveusashout.org/",
+          "href": "https://www.giveusashout.org/"
+        },
+        {
+          "label": "Availability: 24/7",
+          "href": null
         }
       ]
     },
     {
       "title": "CALM (Campaign Against Living Miserably)",
-      "description": "Support and information for people who are struggling or worried about someone else. Check CALM’s website for current contact options.",
+      "description": "Provides suicide prevention support through a helpline, live chat and WhatsApp.",
       "contacts": [
         {
-          "label": "CALM: get support",
-          "href": "https://www.thecalmzone.net/get-support"
+          "label": "Phone: 0800 58 58 58",
+          "href": null
+        },
+        {
+          "label": "Website: https://www.thecalmzone.net/",
+          "href": "https://www.thecalmzone.net/"
+        },
+        {
+          "label": "Helpline: 5pm-midnight",
+          "href": null
         }
       ]
     },
     {
       "title": "Stay Alive App",
-      "description": "Suicide prevention resources and safety-planning tools. The app is not a substitute for urgent professional help.",
+      "description": "A suicide prevention app offering resources and support contacts. Users can also create their own prevention plan.",
       "contacts": [
         {
-          "label": "StayAlive",
-          "href": "https://stayalive.prevent-suicide.org.uk/"
+          "label": "Website: www.prevent-suicide.org.uk/stay_alive_suicide_prevention_mobile_phone_application.html",
+          "href": "https://www.prevent-suicide.org.uk/stay_alive_suicide_prevention_mobile_phone_application.html"
+        },
+        {
+          "label": "Available via Google Play and the Apple App Store",
+          "href": null
         }
       ]
     }
@@ -878,81 +909,81 @@
   "other-resources": [
     {
       "title": "Patient.info",
-      "description": "Health information for patients and the public, including resources on mental health and wellbeing.",
+      "description": "Self-help and health information.",
       "contacts": [
         {
-          "label": "Patient.info",
-          "href": "https://patient.info/"
+          "label": "Website: www.patient.co.uk",
+          "href": "https://www.patient.co.uk"
         }
       ]
     },
     {
       "title": "NHS Moodzone",
-      "description": "The NHS offers current resources for mental wellbeing, sleep, stress and low mood through Every Mind Matters.",
+      "description": "Mental health and wellbeing resources.",
       "contacts": [
         {
-          "label": "NHS Every Mind Matters",
-          "href": "https://www.nhs.uk/every-mind-matters/"
+          "label": "Website: www.nhs.uk/moodzone",
+          "href": "https://www.nhs.uk/moodzone"
         }
       ]
     },
     {
       "title": "Moodjuice",
-      "description": "NHS inform now hosts online self-help guides for topics including anxiety, low mood and grief, replacing the legacy Moodjuice route.",
+      "description": "Self-help resources for mental health.",
       "contacts": [
         {
-          "label": "NHS inform self-help guides",
-          "href": "https://www.nhsinform.scot/self-help-guides/"
+          "label": "Website: www.moodjuice.scot.nhs.uk",
+          "href": "https://www.moodjuice.scot.nhs.uk"
         }
       ]
     },
     {
       "title": "Calm App",
-      "description": "A breathing exercise from Calm’s wellbeing reference material.",
+      "description": "The “Take a Deep Breath” article offers resources for relaxation and wellbeing.",
       "contacts": [
         {
-          "label": "Take a Deep Breath",
+          "label": "Website: https://blog.calm.com/take-a-deep-breath",
           "href": "https://blog.calm.com/take-a-deep-breath"
         }
       ]
     },
     {
       "title": "Facing Your Feelings",
-      "description": "A self-help workbook from the Centre for Clinical Interventions on coping with difficult emotions.",
+      "description": "A self-help resource for distress tolerance.",
       "contacts": [
         {
-          "label": "Facing Your Feelings: distress tolerance resources",
+          "label": "Website: https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Tolerating-Distress",
           "href": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Tolerating-Distress"
         }
       ]
     },
     {
       "title": "Psychology Tools",
-      "description": "Anxiety information and self-help resources. Check the provider for which resources are freely available.",
+      "description": "Provides self-help resources related to anxiety.",
       "contacts": [
         {
-          "label": "Psychology Tools: learn about anxiety",
-          "href": "https://www.psychologytools.com/articles/learn-about-anxiety"
+          "label": "Website: https://www.psychologytools.com/self-help/anxiety/",
+          "href": "https://www.psychologytools.com/self-help/anxiety/"
         }
       ]
     },
     {
       "title": "Centre for Clinical Interventions",
-      "description": "Public mental health information sheets and self-help workbooks from Western Australia’s Centre for Clinical Interventions.",
+      "description": "Provides a collection of self-help resources covering mental health and wellbeing.",
       "contacts": [
         {
-          "label": "Centre for Clinical Interventions self-help resources",
+          "label": "Website: https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
           "href": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself"
         }
       ]
     },
     {
       "title": "Solent NHS YouTube Channel",
-      "description": "Public videos are available on the channel for the NHS trust that now includes former Solent NHS services.",
+      "description": "Videos from Solent NHS.",
       "contacts": [
         {
-          "label": "Hampshire and Isle of Wight Healthcare NHS videos",
-          "href": "https://www.youtube.com/@hampshireandiowhnhsft"
+          "label": "Website: https://tinyurl.com/rx6ed5t",
+          "href": "https://tinyurl.com/rx6ed5t"
         }
       ]
     }

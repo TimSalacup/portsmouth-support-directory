@@ -275,14 +275,14 @@ body { margin: 0; min-width: 320px; }
 .practice-entry--front { animation: front-arrive 3s ease-out .5s both; }
 .header-heading-motion { position: relative; z-index: 1; max-width: 100%; transform: translateY(var(--heading-parallax, 0px)); }
 .directory-header h1 { animation: heading-arrive 2s ease-out both; }
-.directory-header h1 .portsmouth-word { font-family: 'BBH Bartle', Georgia, cursive; font-size: min(clamp(64px, 8.25vw, 48px), 12vw); font-weight: 400; }
+.directory-header h1 .portsmouth-word { font-family: 'BBH Bartle', Georgia, cursive; font-size: min(64px, 12vw); font-weight: 400; }
 @keyframes rear-arrive { from { opacity: 1; transform: translateY(calc(-100vh - 200%)); } to { opacity: 1; transform: translateY(0); } }
 @keyframes front-arrive { from { opacity: 1; transform: translateX(calc(100vw + 100%)); } to { opacity: 1; transform: translateX(0); } }
 @keyframes heading-arrive { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: translateY(0); } }
 .category-reveal { opacity: 1; transform: translateY(0); transition: opacity 500ms ease-out, transform 500ms ease-out; }
 .category-reveal.reveal-ready { opacity: 0; transform: translateY(20px); }
 @media (min-width: 1024px) {
-  .practice-fan { left: calc(60% + 64px); }
+  .practice-fan { left: min(calc(60% + 184px), var(--fan-safe-center, calc(100% - 320px))); }
   .is-open .is-selected .category-card { max-height: calc(100dvh - 136px); }
 }
 @media (max-width: 1023px) {
@@ -297,3 +297,13 @@ body { margin: 0; min-width: 320px; }
   .category-reveal { transition: none; }
   .category-reveal.reveal-ready { opacity: 1; transform: none; }
 }
+
+/* Total padding, not an increment; all breakpoint rules above are overridden. */
+.directory-content { padding-bottom: 240px; }
+.directory-header h1 .portsmouth-word { max-width: 100%; }
+
+/* The archival caution stays outside the verbatim service article. */
+.crisis-source-note { margin-top: 24px; padding-top: 12px; border-top: 1px solid rgb(13 60 124 / 12%); font-size: 12px; line-height: 1.6; color: #52677f; }
+.segment-content, .segment-content a, .crisis-source-note { user-select: text; -webkit-user-select: text; }
+
+.segment-contact-heading { margin: 0 0 8px; font: inherit; font-weight: 600; }

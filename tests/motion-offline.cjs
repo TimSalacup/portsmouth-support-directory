@@ -11,7 +11,7 @@ for(const [width,height] of [[320,568],[390,844],[800,360],[1023,768],[1024,768]
  for(const state of ['idle','hover']){
   if(state==='hover'){await page.locator('.practice-fan').hover();await page.evaluate(()=>document.getAnimations().forEach(a=>{if(a.effect.getTiming().iterations!==Infinity)a.finish()}))}
   const r=await page.evaluate(()=>{const header=document.querySelector('header').getBoundingClientRect(),title=document.querySelector('h1').getBoundingClientRect(),fan=document.querySelector('.practice-fan').getBoundingClientRect(),wave=document.querySelector('.section-wave').getBoundingClientRect(),cards=[...document.querySelectorAll('.practice-card')].map(c=>c.getBoundingClientRect());return {overlap:cards.some(c=>c.bottom>title.top&&c.top<title.bottom&&c.right>title.left&&c.left<title.right),clipped:cards.some(c=>c.left<0||c.right>innerWidth||c.top<header.top||c.bottom>wave.top),overflow:document.documentElement.scrollWidth>innerWidth,stacked:fan.top>title.bottom,center:Math.abs((fan.left+fan.right)/2-innerWidth/2),fontRatio:parseFloat(getComputedStyle(document.querySelector('.portsmouth-word')).fontSize)/parseFloat(getComputedStyle(document.querySelector('h1')).fontSize)}})
-  assert.ok(!r.overlap&&!r.clipped&&!r.overflow,JSON.stringify({width,height,state,r}));assert.ok(Math.abs(r.fontRatio-1.5)<.01)
+  assert.ok(!r.overlap&&!r.clipped&&!r.overflow,JSON.stringify({width,height,state,r}));assert.ok(Math.abs(r.fontRatio-Math.min(64,width*.12)/Math.min(96,Math.max(22,width*.055)))<.01)
   if(width<1024)assert.ok(r.stacked&&r.center<1,JSON.stringify(r))
  }
  console.log('PASS responsive header',width,height)

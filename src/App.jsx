@@ -1,4 +1,4 @@
-import { matchDetailHeight, attachCategoryReveals, attachHeaderParallax } from './layout-motion.mjs'
+import { matchDetailHeight, attachCategoryReveals, attachHeaderParallax, fitHeaderComposition } from './layout-motion.mjs'
 import DetailPanel from './DetailPanel.jsx'
 import directoryData from './directory-data.json'
 import { lockDocumentScroll } from './segment-navigation.mjs'
@@ -108,6 +108,8 @@ export default function App() {
     const stopReveals = attachCategoryReveals(gridRef.current)
     return () => { stopHeader(); stopReveals() }
   }, [])
+
+  useLayoutEffect(() => fitHeaderComposition(headerRef.current), [])
 
   useLayoutEffect(() => {
     if (!selection || !detailRegion.current || !triggers.current[selection.index]) return
