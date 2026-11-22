@@ -133,3 +133,9 @@ Portsmouth_Mental_Health_Support_Directory(1).pdf remains the primary source. Th
 Cross-referenced Leadership,_201st_20review.pdf.pdf. Its embedded Talking Therapies Portsmouth link on page 3 redirects to the current official NHS service page, now displayed as the actual clickable URL. Replaced editorial descriptions with reader-facing language and removed four non-contact placeholder rows, including conflicting legacy crisis hours. The three entries for which neither PDF supplied a dedicated contact simply omit the empty contact block. The new caution text is exactly as requested. No unrelated facts, titles, asset files, parallax, or links changed.
 
 All 70 segments, category order, 137 contact rows, and 63 website/email links are covered by source checks; parallax and navigation regression tests passed. Full app build and browser render were not run in this environment.
+
+## Small-screen card size transition
+
+Below 1024px, normal and compact card heights are lengths derived from the grid column and viewport respectively, so the browser can interpolate them. The 400ms ease-out starts at selection, fits within the existing 440ms opening period, and reverses when Return starts closing. Under 640px, padding and title size ease along with the card, and the “view” hint fades and collapses. Desktop behavior is unchanged; reduced-motion users get the compact layout without a resize transition.
+
+The Node regression suite and test syntax passed. The local CSS browser fixture is included, but Chromium could not start in the available environment. Vite and ESLint were unavailable, so build and lint could not run.
