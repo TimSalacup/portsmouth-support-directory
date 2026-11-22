@@ -1,0 +1,788 @@
+{
+  "mental-wellbeing-resources": [
+    {
+      "title": "Portsmouth Mental Health Hub",
+      "description": "Local advisers help people find mental health support in Portsmouth. They can explain available services and point you towards community organisations or a referral.",
+      "contacts": [
+        {
+          "label": "Mental Health Hub",
+          "href": "https://mentalhealthinportsmouth.co.uk/"
+        }
+      ]
+    },
+    {
+      "title": "NHS Talking Therapies Portsmouth",
+      "description": "An NHS team offering talking therapies for common difficulties such as anxiety, depression and panic. The service was previously called Talking Change.",
+      "contacts": [
+        {
+          "label": "Portsmouth service and access",
+          "href": "https://www.talkingtherapieshiow.nhs.uk/portsmouth"
+        }
+      ]
+    },
+    {
+      "title": "Kooth",
+      "description": "Online wellbeing support for young people, including counsellor messaging, moderated discussions and self-help tools. Check local access and age eligibility on the site.",
+      "contacts": [
+        {
+          "label": "Kooth",
+          "href": "https://www.kooth.com/"
+        }
+      ]
+    },
+    {
+      "title": "HIVE Portsmouth",
+      "description": "A local community directory and network connecting Portsmouth residents with voluntary groups, charities and practical support.",
+      "contacts": [
+        {
+          "label": "HIVE Portsmouth",
+          "href": "https://hiveportsmouth.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Reading Well – Books on Prescription",
+      "description": "Reading lists and self-help books on health and wellbeing. Many titles are available through public libraries.",
+      "contacts": [
+        {
+          "label": "Reading Well",
+          "href": "https://reading-well.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Mindfulness",
+      "description": "The guide lists online tools and courses for practising mindfulness. Check the provider for pricing and access requirements.",
+      "contacts": [
+        {
+          "label": "Headspace",
+          "href": "https://www.headspace.com/"
+        },
+        {
+          "label": "Be Mindful",
+          "href": "https://www.bemindful.co.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Solent Mind Community Peer Service",
+      "description": "Local peer support for people experiencing mental health difficulties. The current service outlines the referral pathway through NHS mental health services or the Portsmouth Mental Health Hub.",
+      "contacts": [
+        {
+          "label": "Community Peer Service",
+          "href": "https://www.solentmind.org.uk/support-for-you/our-services/community-peer-service-portsmouth/"
+        }
+      ]
+    },
+    {
+      "title": "Hampshire and Isle of Wight Wellbeing & Recovery College",
+      "description": "The successor to Solent Recovery College offers wellbeing education and recovery courses. See the college for its current programme and enrolment routes.",
+      "contacts": [
+        {
+          "label": "Wellbeing & Recovery College",
+          "href": "https://wellbeingrecoverycollege.hiowhealthcare.nhs.uk/about"
+        }
+      ]
+    },
+    {
+      "title": "Mind",
+      "description": "Information on mental health, practical support and ways to find help, including services provided by local Mind organisations.",
+      "contacts": [
+        {
+          "label": "Mind information and support",
+          "href": "https://www.mind.org.uk/information-support/"
+        }
+      ]
+    }
+  ],
+  "veterans-support": [
+    {
+      "title": "Veterans Outreach Support",
+      "description": "Portsmouth-based wellbeing, welfare and mental health support for members of the armed forces and merchant navy communities, veterans and their families. The organisation can explain how to access its local services.",
+      "contacts": [
+        {
+          "label": "Veterans Outreach Support",
+          "href": "https://www.vosuk.org/"
+        }
+      ]
+    }
+  ],
+  "elderly-support": [
+    {
+      "title": "Remind",
+      "description": "Solent Mind’s Portsmouth service for people living with dementia and their carers. It offers practical support, community activities and help accessing other services.",
+      "contacts": [
+        {
+          "label": "Remind service and referral information",
+          "href": "https://www.solentmind.org.uk/support-for-you/our-services/remind/"
+        }
+      ]
+    },
+    {
+      "title": "Age UK Portsmouth",
+      "description": "Local support for people in later life and their carers. Check the Portsmouth branch for available services, activities and advice.",
+      "contacts": [
+        {
+          "label": "Age UK Portsmouth",
+          "href": "https://www.ageuk.org.uk/portsmouth/"
+        }
+      ]
+    }
+  ],
+  "relationship-support": [
+    {
+      "title": "Relate",
+      "description": "Counselling, information and support for people navigating relationship and family difficulties. Visit the provider to explore services and ways to get in touch.",
+      "contacts": [
+        {
+          "label": "Relate",
+          "href": "https://www.relate.org.uk/"
+        }
+      ]
+    }
+  ],
+  "bereavement": [
+    {
+      "title": "Cruse Bereavement Support",
+      "description": "Grief information and emotional support after a death. Cruse can help you find local, one-to-one or group support.",
+      "contacts": [
+        {
+          "label": "Get support from Cruse",
+          "href": "https://www.cruse.org.uk/get-support/"
+        }
+      ]
+    },
+    {
+      "title": "Bereavement support groups",
+      "description": "Find groups and other ways to get support after a loss. Hampshire County Council lists options for different experiences of grief.",
+      "contacts": [
+        {
+          "label": "Bereavement support in Hampshire",
+          "href": "https://www.hants.gov.uk/socialcareandhealth/publichealth/mentalwellbeinghampshire/bereavement/supportformyself"
+        }
+      ]
+    }
+  ],
+  "citizens-advice": [
+    {
+      "title": "Citizens Advice Portsmouth",
+      "description": "Free, independent advice on issues such as benefits, debt, housing, employment and consumer rights. Use the Portsmouth listing for local contact options or visit the national site for information.",
+      "contacts": [
+        {
+          "label": "Portsmouth contact options",
+          "href": "https://casolenteast.org.uk/pages/citizens-advice-portsmouth"
+        },
+        {
+          "label": "Citizens Advice",
+          "href": "https://www.citizensadvice.org.uk/"
+        }
+      ]
+    }
+  ],
+  "domestic-abuse-and-rape": [
+    {
+      "title": "Portsmouth Abuse and Rape Counselling Service (PARCS)",
+      "description": "Specialist counselling and support for people affected by sexual violence or domestic abuse across Portsmouth and South East Hampshire. The council lists the current contact routes.",
+      "contacts": [
+        {
+          "label": "Portsmouth City Council: domestic and sexual abuse",
+          "href": "https://www.portsmouth.gov.uk/services/community-safety/domestic-abuse"
+        }
+      ]
+    },
+    {
+      "title": "Hampshire domestic abuse support",
+      "description": "Hampshire County Council lists specialist services for people experiencing domestic abuse, those close to them and professionals seeking local support.",
+      "contacts": [
+        {
+          "label": "Hampshire County Council: domestic abuse",
+          "href": "https://www.hants.gov.uk/socialcareandhealth/domesticabuse"
+        }
+      ]
+    },
+    {
+      "title": "Stop Domestic Abuse",
+      "description": "Specialist domestic abuse support for people in Portsmouth and Hampshire. Check the service for local outreach and ways to contact the team.",
+      "contacts": [
+        {
+          "label": "Stop Domestic Abuse",
+          "href": "https://stopdomesticabuse.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Aurora New Dawn",
+      "description": "Support and advocacy for people affected by domestic abuse, sexual violence or stalking. The provider lists its services and contact routes.",
+      "contacts": [
+        {
+          "label": "Aurora New Dawn",
+          "href": "https://www.aurorand.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Yellow Door",
+      "description": "Southampton-based support for people affected by domestic abuse, sexual violence and other interpersonal harm.",
+      "contacts": [
+        {
+          "label": "Yellow Door",
+          "href": "https://yellowdoor.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Paragon",
+      "description": "Specialist support for people affected by domestic abuse, sexual violence or stalking. Check the provider and police directory for the service covering your area.",
+      "contacts": [
+        {
+          "label": "Hampshire and Isle of Wight Constabulary: support organisations",
+          "href": "https://www.hampshire.police.uk/advice/advice-and-information/daa/domestic-abuse/support-organisations/"
+        }
+      ]
+    },
+    {
+      "title": "Refuge: National Domestic Abuse Helpline",
+      "description": "Confidential information and specialist support for women experiencing domestic abuse in England.",
+      "contacts": [
+        {
+          "label": "Refuge: find support",
+          "href": "https://www.nationaldahelpline.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Men’s Advice Line",
+      "description": "Information and emotional support for men experiencing domestic abuse, and guidance for people supporting them.",
+      "contacts": [
+        {
+          "label": "Men’s Advice Line",
+          "href": "https://mensadviceline.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Galop",
+      "description": "Support for LGBT+ people affected by abuse or violence, including domestic abuse.",
+      "contacts": [
+        {
+          "label": "Galop: get help",
+          "href": "https://galop.org.uk/get-help/"
+        }
+      ]
+    },
+    {
+      "title": "Childline",
+      "description": "Confidential support for children and young people who want to talk about abuse, relationships or other worries.",
+      "contacts": [
+        {
+          "label": "Childline: get support",
+          "href": "https://www.childline.org.uk/get-support/"
+        }
+      ]
+    }
+  ],
+  "drugs-and-substance-abuse": [
+    {
+      "title": "Portsmouth Wellbeing Service",
+      "description": "Local support for stopping smoking, cutting down on alcohol, getting active and managing weight. The service offers help directly and can also receive referrals.",
+      "contacts": [
+        {
+          "label": "Portsmouth Wellbeing Service contact",
+          "href": "https://wellbeingportsmouth.co.uk/contact-us/"
+        }
+      ]
+    },
+    {
+      "title": "NHS Better Health: quit smoking",
+      "description": "Tools and information for people who want to stop smoking, with routes to local support.",
+      "contacts": [
+        {
+          "label": "NHS quit-smoking resources",
+          "href": "https://www.nhs.uk/better-health/quit-smoking/"
+        }
+      ]
+    },
+    {
+      "title": "Drug and substance misuse in Portsmouth",
+      "description": "The council signposts support for people concerned about drug or alcohol use and identifies services for different age groups.",
+      "contacts": [
+        {
+          "label": "Portsmouth City Council: drug and substance misuse",
+          "href": "https://www.portsmouth.gov.uk/services/health-and-wellbeing/staying-healthy-and-well/drug-and-substance-misuse"
+        }
+      ]
+    },
+    {
+      "title": "Portsmouth Recovery Hub",
+      "description": "Local peer-supported recovery and help accessing drug and alcohol services. This is separate from the national FRANK information service.",
+      "contacts": [
+        {
+          "label": "NHS listing and contact details",
+          "href": "https://www.nhs.uk/services/service-directory/portsmouth-recovery-hub/N10871041"
+        }
+      ]
+    },
+    {
+      "title": "FRANK",
+      "description": "Information about drugs and their effects, with advice and guidance on finding support.",
+      "contacts": [
+        {
+          "label": "FRANK",
+          "href": "https://www.talktofrank.com/"
+        }
+      ]
+    }
+  ],
+  "end-of-life-support": [
+    {
+      "title": "Macmillan Cancer Support",
+      "description": "Practical, emotional and financial information for people living with cancer and people supporting them.",
+      "contacts": [
+        {
+          "label": "Macmillan services",
+          "href": "https://www.macmillan.org.uk/cancer-information-and-support/get-help/macmillan-services"
+        }
+      ]
+    },
+    {
+      "title": "Cancer Research UK",
+      "description": "Information about cancer and treatment, including a route to contact specialist information nurses.",
+      "contacts": [
+        {
+          "label": "Cancer Research UK: about cancer",
+          "href": "https://www.cancerresearchuk.org/about-cancer"
+        }
+      ]
+    },
+    {
+      "title": "Harbour Cancer Support Centre",
+      "description": "Practical and emotional support in Gosport for people affected by cancer, including relatives, friends and carers.",
+      "contacts": [
+        {
+          "label": "NHS listing and contact details",
+          "href": "https://www.nhs.uk/services/service-directory/harbour-cancer-support-centre/N10954101"
+        }
+      ]
+    },
+    {
+      "title": "Macmillan Information and Support Centre: Queen Alexandra Hospital",
+      "description": "The Portsmouth hospital centre helps people affected by cancer find emotional support, information and practical guidance.",
+      "contacts": [
+        {
+          "label": "Portsmouth Hospitals: Macmillan centre",
+          "href": "https://www.porthosp.nhs.uk/departments-and-services/macmillan-information-and-support-centre"
+        }
+      ]
+    },
+    {
+      "title": "Macmillan Information Hub: St Richard’s Hospital",
+      "description": "The Chichester hub offers practical information and a place to discuss concerns for people affected by cancer and those close to them.",
+      "contacts": [
+        {
+          "label": "St Richard’s Hospital: Macmillan hub",
+          "href": "https://www.uhsussex.nhs.uk/services/cancer-care/support/macmillan-2/macmillan/"
+        }
+      ]
+    },
+    {
+      "title": "Wessex Cancer Support",
+      "description": "Emotional and practical support for people affected by cancer, including family members and carers. Check the directory for current centre locations.",
+      "contacts": [
+        {
+          "label": "NHS listing and contact details",
+          "href": "https://www.nhs.uk/services/service-directory/wessex-cancer-support/N11079918"
+        }
+      ]
+    },
+    {
+      "title": "Dying Matters",
+      "description": "Hospice UK’s programme provides resources for talking about dying, death and grief. Hospice UK also helps people find hospice support.",
+      "contacts": [
+        {
+          "label": "Dying Matters",
+          "href": "https://www.hospiceuk.org/our-campaigns/dying-matters"
+        },
+        {
+          "label": "Find a hospice",
+          "href": "https://www.hospiceuk.org/hospice-care-finder"
+        }
+      ]
+    },
+    {
+      "title": "Mountbatten Hampshire",
+      "description": "Specialist palliative care and family support in the Southampton area. The hospice was previously known as Countess Mountbatten Hospice.",
+      "contacts": [
+        {
+          "label": "Mountbatten Hampshire",
+          "href": "https://www.mountbatten-hampshire.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Rowans Hospice",
+      "description": "Palliative and hospice support for people with life-limiting illness and those close to them in Portsmouth and South East Hampshire. The access route depends on the service.",
+      "contacts": [
+        {
+          "label": "Palliative Care Support Hub",
+          "href": "https://www.rowanshospice.co.uk/palliative-care-support-hub/"
+        }
+      ]
+    },
+    {
+      "title": "St Wilfrid’s Hospice",
+      "description": "Palliative care in and around Chichester, including hospice care at home and support for families.",
+      "contacts": [
+        {
+          "label": "St Wilfrid’s Hospice",
+          "href": "https://stwh.co.uk/"
+        }
+      ]
+    },
+    {
+      "title": "The Rosemary Foundation",
+      "description": "Hospice-at-home nursing and support for people with life-limiting illnesses in and around Petersfield.",
+      "contacts": [
+        {
+          "label": "The Rosemary Foundation contact",
+          "href": "https://rosemary-foundation.org.uk/contact-us/"
+        }
+      ]
+    }
+  ],
+  "paediatrics": [
+    {
+      "title": "Hampshire Specialist CAMHS",
+      "description": "Specialist emotional and mental health services for children and young people. The NHS lists separate contact and referral routes for Hampshire and Portsmouth.",
+      "contacts": [
+        {
+          "label": "NHS CAMHS by area",
+          "href": "https://hiowhealthcare.nhs.uk/our-services/camhs"
+        }
+      ]
+    },
+    {
+      "title": "Barnardo’s",
+      "description": "Advice and family support for children, parents and carers. The provider lists services by location; check which programmes currently run in Hampshire.",
+      "contacts": [
+        {
+          "label": "Find a Barnardo’s service",
+          "href": "https://www.barnardos.org.uk/get-support"
+        }
+      ]
+    },
+    {
+      "title": "Catch22",
+      "description": "Programmes for young people and families, including practical and wellbeing support. Check the service finder for current local availability.",
+      "contacts": [
+        {
+          "label": "Catch22 services",
+          "href": "https://www.catch-22.org.uk/services/"
+        }
+      ]
+    },
+    {
+      "title": "Hampshire Youth Access",
+      "description": "Counselling and emotional wellbeing support for children and young people. Its website explains referral rules for Portsmouth and surrounding areas.",
+      "contacts": [
+        {
+          "label": "Hampshire Youth Access",
+          "href": "https://hampshireyouthaccess.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Relate",
+      "description": "Young people and families can explore counselling and relationship support through Relate. Ask about local availability.",
+      "contacts": [
+        {
+          "label": "Relate",
+          "href": "https://www.relate.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "YoungMinds",
+      "description": "Mental health information and support for young people and practical resources for parents and carers.",
+      "contacts": [
+        {
+          "label": "YoungMinds",
+          "href": "https://www.youngminds.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Simon Says",
+      "description": "Bereavement support in Hampshire for children and young people facing the death of someone important to them.",
+      "contacts": [
+        {
+          "label": "Simon Says",
+          "href": "https://www.simonsays.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "NHS Talking Therapies Hampshire",
+      "description": "NHS talking therapies for common mental health difficulties. Use the service site to check whether you are eligible and which local service applies.",
+      "contacts": [
+        {
+          "label": "NHS Talking Therapies Hampshire",
+          "href": "https://www.talkingtherapieshiow.nhs.uk/hampshire"
+        }
+      ]
+    },
+    {
+      "title": "Childline",
+      "description": "Children and young people can talk confidentially about worries, including bullying, family problems or abuse.",
+      "contacts": [
+        {
+          "label": "Childline: get support",
+          "href": "https://www.childline.org.uk/get-support/"
+        }
+      ]
+    },
+    {
+      "title": "The Mix",
+      "description": "Digital information and support for young people on issues such as mental health, money and relationships.",
+      "contacts": [
+        {
+          "label": "The Mix",
+          "href": "https://www.themix.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "StayAlive",
+      "description": "A suicide prevention resource with information and tools such as safety planning. It is not a substitute for urgent professional help.",
+      "contacts": [
+        {
+          "label": "StayAlive",
+          "href": "https://stayalive.prevent-suicide.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Anxiety UK",
+      "description": "Information and support for people experiencing anxiety, with resources for young people and those supporting them.",
+      "contacts": [
+        {
+          "label": "Anxiety UK",
+          "href": "https://www.anxietyuk.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Anna Freud",
+      "description": "Mental health and wellbeing resources for children, young people, families and professionals.",
+      "contacts": [
+        {
+          "label": "Anna Freud",
+          "href": "https://www.annafreud.org/"
+        }
+      ]
+    },
+    {
+      "title": "No Panic",
+      "description": "Information and support for people affected by panic attacks, phobias and other anxiety difficulties, including resources for young people.",
+      "contacts": [
+        {
+          "label": "No Panic",
+          "href": "https://www.nopanic.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "School and college mental health support",
+      "description": "Ask your school or college about the support available in your setting, including access to a Mental Health Support Team.",
+      "contacts": [
+        {
+          "label": "Local mental health and wellbeing support",
+          "href": "https://www.portsmouth.gov.uk/services/health-and-wellbeing/mental-health/local-mental-health-and-wellbeing-support"
+        }
+      ]
+    },
+    {
+      "title": "Kooth",
+      "description": "Online wellbeing support and self-help for young people. The site lists current eligibility and access by area.",
+      "contacts": [
+        {
+          "label": "Kooth",
+          "href": "https://www.kooth.com/"
+        }
+      ]
+    },
+    {
+      "title": "NHS Talking Therapies Portsmouth",
+      "description": "The Portsmouth service previously known as Talking Change. Its website explains the support it offers and who can use it.",
+      "contacts": [
+        {
+          "label": "Portsmouth service and access",
+          "href": "https://www.talkingtherapieshiow.nhs.uk/portsmouth"
+        }
+      ]
+    },
+    {
+      "title": "Portsmouth CAMHS",
+      "description": "Specialist mental health support for children and young people registered with a Portsmouth GP. The NHS page describes current eligibility and referral options.",
+      "contacts": [
+        {
+          "label": "NHS Portsmouth CAMHS",
+          "href": "https://hiowhealthcare.nhs.uk/our-services/a-z-list-of-services/child-and-adolescent-mental-health-service-camhs-portsmouth"
+        }
+      ]
+    }
+  ],
+  "mental-health-in-crisis": [
+    {
+      "title": "Urgent mental health help",
+      "description": "For a mental health crisis or emergency in England, the NHS explains how to get urgent help and what to do in an emergency.",
+      "contacts": [
+        {
+          "label": "NHS: where to get urgent mental health help",
+          "href": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+        }
+      ]
+    },
+    {
+      "title": "Samaritans",
+      "description": "Confidential listening support for people going through a difficult time.",
+      "contacts": [
+        {
+          "label": "Samaritans: contact options",
+          "href": "https://www.samaritans.org/how-we-can-help/contact-samaritan/"
+        }
+      ]
+    },
+    {
+      "title": "Campaign Against Living Miserably (CALM)",
+      "description": "Support and information for people struggling or worried about someone else.",
+      "contacts": [
+        {
+          "label": "CALM: get support",
+          "href": "https://www.thecalmzone.net/get-support"
+        }
+      ]
+    },
+    {
+      "title": "Shout",
+      "description": "Confidential UK text-based support for people who are struggling to cope. Visit the provider for current instructions.",
+      "contacts": [
+        {
+          "label": "Shout: get help",
+          "href": "https://giveusashout.org/get-help/"
+        }
+      ]
+    },
+    {
+      "title": "StayAlive",
+      "description": "Suicide prevention information and safety-planning tools for people struggling and those supporting them. This resource does not replace urgent care.",
+      "contacts": [
+        {
+          "label": "StayAlive",
+          "href": "https://stayalive.prevent-suicide.org.uk/"
+        }
+      ]
+    }
+  ],
+  "other-resources": [
+    {
+      "title": "Patient.info",
+      "description": "Health information written for patients, including resources on mental health conditions and wellbeing.",
+      "contacts": [
+        {
+          "label": "Patient.info",
+          "href": "https://patient.info/"
+        }
+      ]
+    },
+    {
+      "title": "NHS Every Mind Matters",
+      "description": "Practical NHS wellbeing resources covering topics such as sleep, stress and low mood.",
+      "contacts": [
+        {
+          "label": "Every Mind Matters",
+          "href": "https://www.nhs.uk/every-mind-matters/"
+        }
+      ]
+    },
+    {
+      "title": "YoungMinds",
+      "description": "Mental health information and support for young people and parents.",
+      "contacts": [
+        {
+          "label": "YoungMinds",
+          "href": "https://www.youngminds.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Anxiety UK",
+      "description": "Information about anxiety and the support the charity offers.",
+      "contacts": [
+        {
+          "label": "Anxiety UK",
+          "href": "https://www.anxietyuk.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "No Panic",
+      "description": "Self-help information and other support for people experiencing anxiety and panic.",
+      "contacts": [
+        {
+          "label": "No Panic",
+          "href": "https://www.nopanic.org.uk/"
+        }
+      ]
+    },
+    {
+      "title": "Calm",
+      "description": "A breathing exercise from the Calm app’s resource library.",
+      "contacts": [
+        {
+          "label": "Calm breathing exercise",
+          "href": "https://blog.calm.com/take-a-deep-breath"
+        }
+      ]
+    },
+    {
+      "title": "Facing Your Feelings",
+      "description": "A self-help workbook about tolerating emotional distress, from the Centre for Clinical Interventions.",
+      "contacts": [
+        {
+          "label": "Distress tolerance resources",
+          "href": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Tolerating-Distress"
+        }
+      ]
+    },
+    {
+      "title": "Psychology Tools",
+      "description": "Information and self-help materials about anxiety. Check the provider for what is freely available.",
+      "contacts": [
+        {
+          "label": "Psychology Tools: anxiety resources",
+          "href": "https://www.psychologytools.com/self-help/anxiety/"
+        }
+      ]
+    },
+    {
+      "title": "Centre for Clinical Interventions",
+      "description": "Self-help workbooks and information sheets from Western Australia’s public mental health service.",
+      "contacts": [
+        {
+          "label": "Self-help resources",
+          "href": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself"
+        }
+      ]
+    },
+    {
+      "title": "Hampshire and Isle of Wight Healthcare NHS videos",
+      "description": "Public videos from the NHS trust that now incorporates former Solent NHS services.",
+      "contacts": [
+        {
+          "label": "NHS trust video channel",
+          "href": "https://www.youtube.com/@hampshireandiowhnhsft"
+        }
+      ]
+    }
+  ]
+}
